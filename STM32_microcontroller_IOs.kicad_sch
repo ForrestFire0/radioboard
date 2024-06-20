@@ -11884,7 +11884,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 238.252 58.6232 0)
 			(effects
 				(font
@@ -12074,7 +12074,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 139.954 157.4292 0)
 			(effects
 				(font
@@ -12264,7 +12264,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 238.252 53.5432 0)
 			(effects
 				(font
@@ -12454,7 +12454,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 241.554 55.8292 0)
 			(effects
 				(font
@@ -12644,7 +12644,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 66.04 192.2272 0)
 			(effects
 				(font
@@ -12883,7 +12883,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 147.32 113.4872 0)
 			(effects
 				(font
@@ -13284,7 +13284,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 238.76 174.4472 0)
 			(effects
 				(font
@@ -13617,7 +13617,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 266.7 164.2872 90)
 			(effects
 				(font
@@ -13815,7 +13815,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 91.694 45.6692 0)
 			(effects
 				(font
@@ -14005,7 +14005,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 88.392 43.3832 0)
 			(effects
 				(font
@@ -14195,7 +14195,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 91.694 50.7492 0)
 			(effects
 				(font
@@ -14385,7 +14385,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 139.954 159.9692 0)
 			(effects
 				(font
@@ -14575,7 +14575,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 58.42 171.9072 0)
 			(effects
 				(font
@@ -14764,7 +14764,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 162.56 159.2072 0)
 			(effects
 				(font
@@ -15165,7 +15165,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 210.312 143.7132 0)
 			(effects
 				(font
@@ -15430,7 +15430,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 241.554 60.9092 0)
 			(effects
 				(font
@@ -15620,7 +15620,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 14.732 123.9012 0)
 			(effects
 				(font
@@ -15819,7 +15819,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 241.554 48.2092 0)
 			(effects
 				(font
@@ -16009,7 +16009,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 139.954 144.7292 0)
 			(effects
 				(font
@@ -16266,7 +16266,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 218.694 166.3192 0)
 			(effects
 				(font
@@ -16485,7 +16485,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 71.12 187.1472 0)
 			(effects
 				(font
@@ -16790,7 +16790,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 40.64 143.9672 0)
 			(effects
 				(font
@@ -17009,7 +17009,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 139.954 147.2692 0)
 			(effects
 				(font
@@ -17199,7 +17199,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 218.44 141.4272 0)
 			(effects
 				(font
@@ -17403,7 +17403,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 68.072 169.3672 0)
 			(effects
 				(font
@@ -17632,7 +17632,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 241.554 50.7492 0)
 			(effects
 				(font
@@ -17822,7 +17822,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 14.732 151.8412 0)
 			(effects
 				(font
@@ -18021,7 +18021,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 240.792 143.2052 0)
 			(effects
 				(font
@@ -18276,7 +18276,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 58.42 182.0672 0)
 			(effects
 				(font
@@ -18465,7 +18465,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 58.42 192.2272 0)
 			(effects
 				(font
@@ -18654,7 +18654,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 88.392 48.4632 0)
 			(effects
 				(font

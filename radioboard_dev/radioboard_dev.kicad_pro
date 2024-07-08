@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.0,
+          "height": 1.85,
+          "width": 1.85
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -171,7 +177,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -198,7 +206,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -431,7 +444,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "radioboard_original.kicad_pro",
+    "filename": "radioboard_dev.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -905,7 +918,7 @@
   "sheets": [
     [
       "d463a497-8f2e-444e-8cd9-7512b15bd4f7",
-      ""
+      "Root"
     ],
     [
       "991445d1-ac72-4dc7-8e85-5e852498bc5d",
@@ -918,18 +931,6 @@
     [
       "955d1056-b41d-4116-b452-aa2752fbe45d",
       "U_STM32_microcontroller_RF"
-    ],
-    [
-      "6f017577-d408-417f-9bb7-202b929f3722",
-      "U_Arduino_extension_connectors"
-    ],
-    [
-      "fd3ee67f-b50a-4610-a8d6-016a81deb3f4",
-      "U_STLink_V3E_Module"
-    ],
-    [
-      "64929b4c-5087-401e-a62c-7cfe43cee7a2",
-      "U_STLink_V3E_PWR"
     ]
   ],
   "text_variables": {

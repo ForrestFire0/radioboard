@@ -13,7 +13,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 121.92 136.3472) (xy 129.54 136.3472)
+			(xy 121.92 135.89) (xy 129.54 135.89)
 		)
 		(stroke
 			(width 0)
@@ -23,7 +23,7 @@
 	)
 	(polyline
 		(pts
-			(xy 276.86 199.8472) (xy 215.9 199.8472)
+			(xy 276.86 199.39) (xy 215.9 199.39)
 		)
 		(stroke
 			(width 0.0254)
@@ -34,7 +34,7 @@
 	)
 	(polyline
 		(pts
-			(xy 251.46 204.9272) (xy 251.46 210.0072)
+			(xy 251.46 204.47) (xy 251.46 209.55)
 		)
 		(stroke
 			(width 0.0254)
@@ -45,7 +45,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 138.8872) (xy 119.38 111.76)
+			(xy 119.38 138.43) (xy 119.38 111.76)
 		)
 		(stroke
 			(width 0)
@@ -55,7 +55,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 141.4272) (xy 129.54 141.4272)
+			(xy 116.84 140.97) (xy 129.54 140.97)
 		)
 		(stroke
 			(width 0)
@@ -65,7 +65,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 138.8872) (xy 119.38 138.8872)
+			(xy 129.54 138.43) (xy 119.38 138.43)
 		)
 		(stroke
 			(width 0)
@@ -75,7 +75,7 @@
 	)
 	(polyline
 		(pts
-			(xy 276.86 197.3072) (xy 276.86 210.0072)
+			(xy 276.86 196.85) (xy 276.86 209.55)
 		)
 		(stroke
 			(width 0.0254)
@@ -86,7 +86,7 @@
 	)
 	(polyline
 		(pts
-			(xy 228.6 207.4672) (xy 228.6 210.0072)
+			(xy 228.6 207.01) (xy 228.6 209.55)
 		)
 		(stroke
 			(width 0.0254)
@@ -97,7 +97,7 @@
 	)
 	(polyline
 		(pts
-			(xy 215.9 207.4672) (xy 276.86 207.4672)
+			(xy 215.9 207.01) (xy 276.86 207.01)
 		)
 		(stroke
 			(width 0.0254)
@@ -108,7 +108,7 @@
 	)
 	(polyline
 		(pts
-			(xy 292.1 197.3072) (xy 215.9 197.3072)
+			(xy 292.1 196.85) (xy 215.9 196.85)
 		)
 		(stroke
 			(width 0.0254)
@@ -129,7 +129,7 @@
 	)
 	(polyline
 		(pts
-			(xy 215.9 197.3072) (xy 215.9 210.0072)
+			(xy 215.9 196.85) (xy 215.9 209.55)
 		)
 		(stroke
 			(width 0.0254)
@@ -150,7 +150,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 114.3) (xy 116.84 141.4272)
+			(xy 116.84 114.3) (xy 116.84 140.97)
 		)
 		(stroke
 			(width 0)
@@ -168,19 +168,9 @@
 		)
 		(uuid "d4d2c10f-4cf6-4494-a046-69f58f50b182")
 	)
-	(wire
-		(pts
-			(xy 152.4 154.1272) (xy 152.4 149.0472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d63e42ca-28ee-423a-93c0-950c7d9852f4")
-	)
 	(polyline
 		(pts
-			(xy 215.9 202.3872) (xy 276.86 202.3872)
+			(xy 215.9 201.93) (xy 276.86 201.93)
 		)
 		(stroke
 			(width 0.0254)
@@ -191,7 +181,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 109.22) (xy 121.92 136.3472)
+			(xy 121.92 109.22) (xy 121.92 135.89)
 		)
 		(stroke
 			(width 0)
@@ -201,7 +191,7 @@
 	)
 	(polyline
 		(pts
-			(xy 215.9 204.9272) (xy 276.86 204.9272)
+			(xy 215.9 204.47) (xy 276.86 204.47)
 		)
 		(stroke
 			(width 0.0254)
@@ -1123,7 +1113,7 @@
 	)
 	(text "Size:"
 		(exclude_from_sim no)
-		(at 216.662 210.0072 0)
+		(at 217.17 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1134,7 +1124,7 @@
 	)
 	(text "${TITLE}"
 		(exclude_from_sim no)
-		(at 222.504 199.5932 0)
+		(at 222.25 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1146,7 +1136,7 @@
 	)
 	(text "Revision:"
 		(exclude_from_sim no)
-		(at 216.662 207.2132 0)
+		(at 217.17 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1157,7 +1147,7 @@
 	)
 	(text "Title:"
 		(exclude_from_sim no)
-		(at 216.662 199.5932 0)
+		(at 217.17 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1168,7 +1158,7 @@
 	)
 	(text "of"
 		(exclude_from_sim no)
-		(at 262.89 210.0072 0)
+		(at 262.89 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1179,7 +1169,7 @@
 	)
 	(text "A4"
 		(exclude_from_sim no)
-		(at 221.742 210.0072 0)
+		(at 222.25 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1190,7 +1180,7 @@
 	)
 	(text "Sheet:"
 		(exclude_from_sim no)
-		(at 252.73 210.0072 0)
+		(at 252.73 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1201,7 +1191,7 @@
 	)
 	(text "Date:"
 		(exclude_from_sim no)
-		(at 229.616 210.0072 0)
+		(at 229.87 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1212,7 +1202,7 @@
 	)
 	(text "Reference:"
 		(exclude_from_sim no)
-		(at 252.73 207.2132 0)
+		(at 252.73 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1223,7 +1213,7 @@
 	)
 	(text "${##}"
 		(exclude_from_sim no)
-		(at 266.192 210.0072 0)
+		(at 266.7 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1234,7 +1224,7 @@
 	)
 	(text "Project:"
 		(exclude_from_sim no)
-		(at 216.662 202.1332 0)
+		(at 217.17 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1245,7 +1235,7 @@
 	)
 	(text "radioboard\n"
 		(exclude_from_sim no)
-		(at 224.536 202.1332 0)
+		(at 224.79 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1257,7 +1247,7 @@
 	)
 	(text "-"
 		(exclude_from_sim no)
-		(at 228.6 207.2132 0)
+		(at 228.6 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1268,7 +1258,7 @@
 	)
 	(text "${#}"
 		(exclude_from_sim no)
-		(at 259.588 210.0072 0)
+		(at 259.08 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1279,7 +1269,7 @@
 	)
 	(text "Author: Forrest Milner, Summer 2024"
 		(exclude_from_sim no)
-		(at 216.662 204.6732 0)
+		(at 217.17 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1289,7 +1279,7 @@
 		(uuid "f024d17d-04e1-44b6-b456-810b831da0df")
 	)
 	(sheet
-		(at 71.12 46.1772)
+		(at 71.12 45.72)
 		(size 43.18 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -1302,7 +1292,7 @@
 		)
 		(uuid "1ca16541-0f9c-45cc-84d4-3e816fa9d744")
 		(property "Sheetname" "U_STM32_microcontroller_power"
-			(at 71.12 43.6372 0)
+			(at 71.12 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1311,7 +1301,7 @@
 			)
 		)
 		(property "Sheetfile" "STM32_microcontroller_power.kicad_sch"
-			(at 71.12 46.1772 0)
+			(at 71.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,7 +1318,7 @@
 		)
 	)
 	(sheet
-		(at 129.54 128.7272)
+		(at 129.54 128.27)
 		(size 43.18 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -1341,7 +1331,7 @@
 		)
 		(uuid "955d1056-b41d-4116-b452-aa2752fbe45d")
 		(property "Sheetname" "U_STM32_microcontroller_RF"
-			(at 129.54 126.1872 0)
+			(at 129.54 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1350,7 +1340,7 @@
 			)
 		)
 		(property "Sheetfile" "STM32_microcontroller_RF.kicad_sch"
-			(at 129.54 128.7272 0)
+			(at 129.54 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,7 +1349,7 @@
 			)
 		)
 		(pin "FE_CTRL2" passive
-			(at 129.54 138.8872 180)
+			(at 129.54 138.43 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,7 +1359,7 @@
 			(uuid "e953e3b6-a534-47f4-8acf-415046e3898e")
 		)
 		(pin "FE_CTRL1" passive
-			(at 129.54 136.3472 180)
+			(at 129.54 135.89 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,18 +1368,8 @@
 			)
 			(uuid "632d66f2-e39e-41ad-8b48-c1d329a0c429")
 		)
-		(pin "PB0" passive
-			(at 152.4 149.0472 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fbc1b7ed-fa7a-4baf-bdd2-eadd83f522df")
-		)
 		(pin "FE_CTRL3" passive
-			(at 129.54 141.4272 180)
+			(at 129.54 140.97 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1437,126 +1417,6 @@
 				(justify left bottom)
 			)
 		)
-		(pin "T_NRST" passive
-			(at 132.08 40.64 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "527b8a1b-70dc-4e3d-84f9-bc9612522b36")
-		)
-		(pin "PA[0..15]" bidirectional
-			(at 132.08 45.72 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "78a5515b-9989-48ed-adad-484268fe71d7")
-		)
-		(pin "PB[1..15]" bidirectional
-			(at 132.08 50.8 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "dbb5340c-5f0d-4338-a092-275a0ee925f8")
-		)
-		(pin "PC[0..15]" bidirectional
-			(at 132.08 55.88 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9dd81411-a84a-4fa3-833b-d906ea3e5b96")
-		)
-		(pin "ARD_D0_RX" passive
-			(at 132.08 73.66 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "4492c1fb-1db1-4470-bd64-79c4aead4ab1")
-		)
-		(pin "ARD_D1_TX" passive
-			(at 132.08 76.2 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "4fc56ecf-6054-4a55-b244-c6597d69d5a3")
-		)
-		(pin "T_VCP_TX" passive
-			(at 175.26 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "1e3144a0-a33c-4cd8-a6b9-f3bc2f8eb010")
-		)
-		(pin "T_VCP_RX" passive
-			(at 175.26 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3c23e1a3-c3de-4ca4-a3f3-4c2cc82630ce")
-		)
-		(pin "T_SWCLK" passive
-			(at 175.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6b7df8a1-f8b5-4f9e-b93e-772c6b468f92")
-		)
-		(pin "T_SWO" passive
-			(at 175.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "75d97158-c59d-4dca-b9b3-d4ee12da17c6")
-		)
-		(pin "T_SWDIO" passive
-			(at 175.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "63ef81b9-d89c-4a27-8896-306dbddd8124")
-		)
-		(pin "T_JTDI" passive
-			(at 175.26 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "9a8ebb13-b1be-4139-a628-16bb030d83c5")
-		)
 		(pin "FE_CTRL2" passive
 			(at 132.08 111.76 180)
 			(effects
@@ -1577,46 +1437,6 @@
 			)
 			(uuid "0d77258d-77b5-4706-bffc-a6b749b0a9cc")
 		)
-		(pin "LED1" passive
-			(at 132.08 83.82 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6df3257e-c837-4632-b974-165b5e260743")
-		)
-		(pin "LED2" passive
-			(at 132.08 86.36 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9f0b642c-de88-47ce-bea6-9827a8155c4a")
-		)
-		(pin "LED3" passive
-			(at 132.08 88.9 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8bd18b82-8ab4-415f-93ba-17d8717bcab8")
-		)
-		(pin "PH3" passive
-			(at 132.08 66.04 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8d8e45a6-bc5d-4de6-837d-b9e94f157042")
-		)
 		(pin "FE_CTRL3" passive
 			(at 132.08 114.3 180)
 			(effects
@@ -1626,16 +1446,6 @@
 				(justify left)
 			)
 			(uuid "718d094a-7e06-4419-8858-16fe6f615fdd")
-		)
-		(pin "ARD_PB3" passive
-			(at 132.08 99.06 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "dab161df-cd25-47e6-bc97-eed0a61cc3ea")
 		)
 		(instances
 			(project "radioboard_dev"

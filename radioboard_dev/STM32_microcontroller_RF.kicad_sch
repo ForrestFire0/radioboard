@@ -1385,1677 +1385,6 @@
 				)
 			)
 		)
-		(symbol "MB1389-altium-import:U_STM32_microcontroller_RF_0_STM32WL5x_BGA73"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "~"
-				(at 0 -78.74 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "parts:QFN50P700X700X60-49N"
-				(at 22.606 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32wl55jc.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Multiprotocol Wireless 32-bit MCUwith LPWAN Sub-GHz radio solution"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "INTERNAL_PART_NUMBER" "MCD-01435"
-				(at -3.048 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ALTIUM_VALUE" "STM32WL55JCI7"
-				(at 0 -78.74 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "STATUS" "Footprint available"
-				(at -3.048 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PART_TYPE" "IC"
-				(at -3.048 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER_PART_NUMBER" "STM32WL55JCI7"
-				(at -3.048 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "STMICROELECTRONICS"
-				(at -3.048 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PACKAGE" "UFBGA73"
-				(at -3.048 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-				(at -3.048 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/IC/STM_STM32WL5x"
-				(at -3.048 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PROVIDED_BY" "n/a"
-				(at -3.048 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ECCN_US" "tbd"
-				(at -3.048 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ECCN_EU" "tbd"
-				(at -3.048 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*ICC_UFBGA73_5X5_P050*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "U_STM32_microcontroller_RF_0_STM32WL5x_BGA73_1_0"
-				(rectangle
-					(start 30.48 0)
-					(end 0 -50.8)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 0 0 128 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "VDDRF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -35.56 0)
-					(length 2.54)
-					(name "PB0-VDD_TCXO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "VDDRF1V55"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -43.18 0)
-					(length 2.54)
-					(name "OSC_OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -20.32 0)
-					(length 2.54)
-					(name "VSSRF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -22.86 0)
-					(length 2.54)
-					(name "VSSRF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -25.4 0)
-					(length 2.54)
-					(name "VSSRF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -40.64 0)
-					(length 2.54)
-					(name "OSC_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -27.94 0)
-					(length 2.54)
-					(name "VSSRF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -45.72 180)
-					(length 2.54)
-					(name "RFI_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "VDDPA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -5.08 180)
-					(length 2.54)
-					(name "VR_PA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -30.48 180)
-					(length 2.54)
-					(name "RFI_P"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "J6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -20.32 180)
-					(length 2.54)
-					(name "RFO_LP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "J8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -12.7 180)
-					(length 2.54)
-					(name "RFO_HP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "J9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "U_STM32_microcontroller_RF_0_STM32WL5x_BGA73_2_0"
-				(rectangle
-					(start 20.32 0)
-					(end 0 -25.4)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -2.54 -22.86 0)
-					(length 2.54)
-					(name "VSSSMPS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "VDDSMPS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "VLXSMPS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "VFBSMPS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "U_STM32_microcontroller_RF_0_STM32WL5x_BGA73_3_0"
-				(rectangle
-					(start 40.64 0)
-					(end 0 -17.78)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 0 0 128 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "PC14-OSC32_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "PC15-OSC32_OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -15.24 180)
-					(length 2.54)
-					(name "NRST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -5.08 180)
-					(length 2.54)
-					(name "PH3-BOOT0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "J5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "U_STM32_microcontroller_RF_0_STM32WL5x_BGA73_4_0"
-				(rectangle
-					(start 35.56 0)
-					(end 0 -30.48)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 0 0 128 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -2.54 -22.86 0)
-					(length 2.54)
-					(name "VDDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -17.78 0)
-					(length 2.54)
-					(name "VBAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -27.94 0)
-					(length 2.54)
-					(name "VREF+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 -5.08 180)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 -7.62 180)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 -10.16 180)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 -12.7 180)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "U_STM32_microcontroller_RF_0_STM32WL5x_BGA73_5_0"
-				(rectangle
-					(start 40.64 0)
-					(end 0 -76.2)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 0 0 128 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -2.54 -40.64 0)
-					(length 2.54)
-					(name "PA14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -35.56 0)
-					(length 2.54)
-					(name "PA12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -43.18 0)
-					(length 2.54)
-					(name "PA15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -43.18 180)
-					(length 2.54)
-					(name "PB15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -38.1 0)
-					(length 2.54)
-					(name "PA13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -33.02 0)
-					(length 2.54)
-					(name "PA11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -12.7 180)
-					(length 2.54)
-					(name "PB3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -15.24 180)
-					(length 2.54)
-					(name "PB4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -22.86 180)
-					(length 2.54)
-					(name "PB7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -27.94 180)
-					(length 2.54)
-					(name "PB9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -40.64 180)
-					(length 2.54)
-					(name "PB14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -30.48 0)
-					(length 2.54)
-					(name "PA10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -17.78 180)
-					(length 2.54)
-					(name "PB5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -25.4 180)
-					(length 2.54)
-					(name "PB8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -55.88 0)
-					(length 2.54)
-					(name "PC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -58.42 0)
-					(length 2.54)
-					(name "PC3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "PA0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -38.1 180)
-					(length 2.54)
-					(name "PB13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -10.16 180)
-					(length 2.54)
-					(name "PB2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -20.32 180)
-					(length 2.54)
-					(name "PB6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -63.5 0)
-					(length 2.54)
-					(name "PC5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -27.94 0)
-					(length 2.54)
-					(name "PA9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -35.56 180)
-					(length 2.54)
-					(name "PB12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -7.62 180)
-					(length 2.54)
-					(name "PB1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -53.34 0)
-					(length 2.54)
-					(name "PC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -50.8 0)
-					(length 2.54)
-					(name "PC0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -60.96 0)
-					(length 2.54)
-					(name "PC4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -20.32 0)
-					(length 2.54)
-					(name "PA6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -66.04 0)
-					(length 2.54)
-					(name "PC6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "PA1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -33.02 180)
-					(length 2.54)
-					(name "PB11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "PA3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "PA2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -22.86 0)
-					(length 2.54)
-					(name "PA7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -30.48 180)
-					(length 2.54)
-					(name "PB10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "PA4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "J1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -17.78 0)
-					(length 2.54)
-					(name "PA5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "J2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -25.4 0)
-					(length 2.54)
-					(name "PA8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "J3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "MB1389-altium-import:U_STM32_microcontroller_RF_0_Shield-clip_S0951-46R"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "shield clip Harwin S0911-46R to fix RF shielded cavity - SMT RFI Shield Clip, Compact (T+R)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "U_STM32_microcontroller_RF_0_Shield-clip_S0951-46R_1_0"
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -0.762 2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0.762 2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.032) (xy -0.762 2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 0.762 2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.794) (xy -0.762 2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 90)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MB1389-altium-import:U_STM32_microcontroller_RF_0_XTAL_4_PINS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4868,1549 +3197,6 @@
 				)
 			)
 		)
-		(symbol "U_STM32_microcontroller_RF_0_STM32WL5x_BGA73_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "~"
-				(at 0 -78.74 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "parts:QFN50P700X700X60-49N"
-				(at 22.606 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32wl55jc.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Multiprotocol Wireless 32-bit MCUwith LPWAN Sub-GHz radio solution"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "INTERNAL_PART_NUMBER" "MCD-01435"
-				(at -3.048 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ALTIUM_VALUE" "STM32WL55JCI7"
-				(at 0 -78.74 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "STATUS" "Footprint available"
-				(at -3.048 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PART_TYPE" "IC"
-				(at -3.048 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER_PART_NUMBER" "STM32WL55JCI7"
-				(at -3.048 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "STMICROELECTRONICS"
-				(at -3.048 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PACKAGE" "UFBGA73"
-				(at -3.048 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-				(at -3.048 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/IC/STM_STM32WL5x"
-				(at -3.048 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PROVIDED_BY" "n/a"
-				(at -3.048 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ECCN_US" "tbd"
-				(at -3.048 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ECCN_EU" "tbd"
-				(at -3.048 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*ICC_UFBGA73_5X5_P050*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "U_STM32_microcontroller_RF_0_STM32WL5x_BGA73_1_1_0"
-				(rectangle
-					(start 30.48 0)
-					(end 0 -50.8)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 0 0 128 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "VDDRF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -35.56 0)
-					(length 2.54)
-					(name "PB0-VDD_TCXO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "VDDRF1V55"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -43.18 0)
-					(length 2.54)
-					(name "OSC_OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -20.32 0)
-					(length 2.54)
-					(name "VSSRF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -22.86 0)
-					(length 2.54)
-					(name "VSSRF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -25.4 0)
-					(length 2.54)
-					(name "VSSRF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -40.64 0)
-					(length 2.54)
-					(name "OSC_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -27.94 0)
-					(length 2.54)
-					(name "VSSRF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -45.72 180)
-					(length 2.54)
-					(name "RFI_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "VDDPA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -5.08 180)
-					(length 2.54)
-					(name "VR_PA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -30.48 180)
-					(length 2.54)
-					(name "RFI_P"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "J6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -20.32 180)
-					(length 2.54)
-					(name "RFO_LP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "J8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -12.7 180)
-					(length 2.54)
-					(name "RFO_HP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "J9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "U_STM32_microcontroller_RF_0_STM32WL5x_BGA73_1_2_0"
-				(rectangle
-					(start 20.32 0)
-					(end 0 -25.4)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -2.54 -22.86 0)
-					(length 2.54)
-					(name "VSSSMPS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "VDDSMPS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "VLXSMPS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "VFBSMPS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "U_STM32_microcontroller_RF_0_STM32WL5x_BGA73_1_3_0"
-				(rectangle
-					(start 40.64 0)
-					(end 0 -17.78)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 0 0 128 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "PC14-OSC32_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "PC15-OSC32_OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -15.24 180)
-					(length 2.54)
-					(name "NRST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -5.08 180)
-					(length 2.54)
-					(name "PH3-BOOT0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "J5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "U_STM32_microcontroller_RF_0_STM32WL5x_BGA73_1_4_0"
-				(rectangle
-					(start 35.56 0)
-					(end 0 -30.48)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 0 0 128 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -2.54 -22.86 0)
-					(length 2.54)
-					(name "VDDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -17.78 0)
-					(length 2.54)
-					(name "VBAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -27.94 0)
-					(length 2.54)
-					(name "VREF+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 -5.08 180)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 -7.62 180)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 -10.16 180)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 -12.7 180)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "U_STM32_microcontroller_RF_0_STM32WL5x_BGA73_1_5_0"
-				(rectangle
-					(start 40.64 0)
-					(end 0 -76.2)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 0 0 128 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -2.54 -40.64 0)
-					(length 2.54)
-					(name "PA14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -35.56 0)
-					(length 2.54)
-					(name "PA12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -43.18 0)
-					(length 2.54)
-					(name "PA15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -43.18 180)
-					(length 2.54)
-					(name "PB15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -38.1 0)
-					(length 2.54)
-					(name "PA13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -33.02 0)
-					(length 2.54)
-					(name "PA11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -12.7 180)
-					(length 2.54)
-					(name "PB3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -15.24 180)
-					(length 2.54)
-					(name "PB4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -22.86 180)
-					(length 2.54)
-					(name "PB7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -27.94 180)
-					(length 2.54)
-					(name "PB9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -40.64 180)
-					(length 2.54)
-					(name "PB14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -30.48 0)
-					(length 2.54)
-					(name "PA10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -17.78 180)
-					(length 2.54)
-					(name "PB5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -25.4 180)
-					(length 2.54)
-					(name "PB8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -55.88 0)
-					(length 2.54)
-					(name "PC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -58.42 0)
-					(length 2.54)
-					(name "PC3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "PA0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -38.1 180)
-					(length 2.54)
-					(name "PB13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -10.16 180)
-					(length 2.54)
-					(name "PB2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -20.32 180)
-					(length 2.54)
-					(name "PB6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -63.5 0)
-					(length 2.54)
-					(name "PC5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -27.94 0)
-					(length 2.54)
-					(name "PA9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -35.56 180)
-					(length 2.54)
-					(name "PB12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -7.62 180)
-					(length 2.54)
-					(name "PB1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -53.34 0)
-					(length 2.54)
-					(name "PC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -50.8 0)
-					(length 2.54)
-					(name "PC0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -60.96 0)
-					(length 2.54)
-					(name "PC4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -20.32 0)
-					(length 2.54)
-					(name "PA6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -66.04 0)
-					(length 2.54)
-					(name "PC6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "PA1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -33.02 180)
-					(length 2.54)
-					(name "PB11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "PA3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "PA2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -22.86 0)
-					(length 2.54)
-					(name "PA7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -30.48 180)
-					(length 2.54)
-					(name "PB10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "PA4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "J1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -17.78 0)
-					(length 2.54)
-					(name "PA5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "J2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -25.4 0)
-					(length 2.54)
-					(name "PA8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "J3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 185.42 58.42)
@@ -6425,12 +3211,6 @@
 		(uuid "0bf08e8e-a620-4448-a988-7248f2aa215b")
 	)
 	(junction
-		(at 22.86 223.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12065b35-a7be-49f2-a6d9-1a4e64b4a8df")
-	)
-	(junction
 		(at 220.98 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6441,12 +3221,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23424c38-a750-431f-b6a8-c6bd56553c47")
-	)
-	(junction
-		(at 40.64 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28916f28-4b72-4445-9421-a2537a1750ef")
 	)
 	(junction
 		(at 330.2 264.16)
@@ -6461,10 +3235,10 @@
 		(uuid "3580d501-f606-45fe-970d-6dfc44621e40")
 	)
 	(junction
-		(at 78.74 187.96)
+		(at 154.94 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "36aa4746-3fc5-4eb4-b603-9ff4a2df1743")
+		(uuid "3de56975-8433-40a3-9571-0922adec5329")
 	)
 	(junction
 		(at 330.2 111.76)
@@ -6479,24 +3253,6 @@
 		(uuid "52d60b4a-561f-47d5-96b7-f23a8de9a534")
 	)
 	(junction
-		(at 68.58 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "589737e9-d93d-4b39-a404-5ea3316971e2")
-	)
-	(junction
-		(at 86.36 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a6484b7-159c-4cfe-881f-eac3360c8e9c")
-	)
-	(junction
-		(at 63.5 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f34f22e-e892-436a-8c32-276615eeabb7")
-	)
-	(junction
 		(at 220.98 264.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6507,12 +3263,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62b2e846-de86-4aed-8c5f-1db3d4e64cf6")
-	)
-	(junction
-		(at 78.74 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6cbea602-f469-4a2b-b1bd-c7567902b5cb")
 	)
 	(junction
 		(at 22.86 259.08)
@@ -6575,16 +3325,16 @@
 		(uuid "9c6948d7-b871-472c-9c58-89004f5f64cd")
 	)
 	(junction
-		(at 78.74 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e6f97b2-14f2-43df-8010-2e2f667a871c")
-	)
-	(junction
 		(at 48.26 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a87fde78-19cc-4325-90ab-8172a0d4c866")
+	)
+	(junction
+		(at 154.94 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "add18d66-c869-443f-a2da-e0f6eb6bd252")
 	)
 	(junction
 		(at 345.44 137.16)
@@ -6593,28 +3343,10 @@
 		(uuid "b735d822-89bd-4968-9ec7-839e5220dae5")
 	)
 	(junction
-		(at 71.12 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b762f305-c499-4995-9b2b-56814b6d4ba8")
-	)
-	(junction
-		(at 154.94 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8c2d387-0958-402b-83d4-33bd543cb1da")
-	)
-	(junction
 		(at 259.08 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb3afea5-ed4b-4a82-8bbb-c2e8a922ea88")
-	)
-	(junction
-		(at 78.74 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd5def2f-1dd8-488f-966f-4abec903dd44")
 	)
 	(junction
 		(at 223.52 177.8)
@@ -6653,22 +3385,10 @@
 		(uuid "f5a493a2-691d-4345-91ab-6f974481d0ff")
 	)
 	(junction
-		(at 154.94 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f66a8eb3-0e87-4033-b5c8-89f620ee56db")
-	)
-	(junction
 		(at 200.66 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8e35dc1-6a22-41f0-99af-80df27771559")
-	)
-	(junction
-		(at 71.12 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbe6c4f7-b872-4314-8c2b-38dc5ac9fd9a")
 	)
 	(polyline
 		(pts
@@ -6770,6 +3490,16 @@
 			(type default)
 		)
 		(uuid "0b3a170e-99bf-4cca-9934-ea518ff32c1a")
+	)
+	(wire
+		(pts
+			(xy 151.13 213.36) (xy 154.94 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c149716-f26a-442e-b93b-430a4cec2c89")
 	)
 	(wire
 		(pts
@@ -6886,16 +3616,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 68.58) (xy 71.12 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16be9699-cc2f-4c1d-a7c6-1c351fdd7ba4")
-	)
-	(wire
-		(pts
 			(xy 259.08 137.16) (xy 274.32 137.16)
 		)
 		(stroke
@@ -6936,7 +3656,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 48.26) (xy 40.64 99.06)
+			(xy 41.91 48.26) (xy 41.91 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6974,16 +3694,6 @@
 			(type default)
 		)
 		(uuid "1dbe5aa2-5b5e-4e19-aea5-fbb9c4a8427e")
-	)
-	(wire
-		(pts
-			(xy 55.88 53.34) (xy 109.22 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ec5e7b4-4b48-4d1e-8a3d-cbd556e527ea")
 	)
 	(wire
 		(pts
@@ -7079,16 +3789,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 104.14) (xy 96.52 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a2022a6-113f-4ee8-91a0-8192b692886a")
-	)
-	(wire
-		(pts
 			(xy 213.36 53.34) (xy 213.36 58.42)
 		)
 		(stroke
@@ -7147,17 +3847,6 @@
 			(type default)
 		)
 		(uuid "2db4202d-c073-4663-9311-0602656ddaca")
-	)
-	(polyline
-		(pts
-			(xy 55.88 279.4) (xy 149.86 279.4)
-		)
-		(stroke
-			(width 0.254)
-			(type dash)
-			(color 128 0 0 1)
-		)
-		(uuid "2e2d7285-9d5f-4ea5-923d-01116c96f68f")
 	)
 	(polyline
 		(pts
@@ -7232,16 +3921,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 210.82) (xy 86.36 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "396ce738-ee76-42d6-8c5b-56be4817b39a")
-	)
-	(wire
-		(pts
 			(xy 279.4 264.16) (xy 294.64 264.16)
 		)
 		(stroke
@@ -7303,26 +3982,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 203.2) (xy 78.74 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dd4358f-12e0-4071-a314-58253226bbbe")
-	)
-	(wire
-		(pts
-			(xy 86.36 203.2) (xy 78.74 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e9c5608-e839-4858-b77c-bbc14f277844")
-	)
-	(wire
-		(pts
 			(xy 316.23 181.61) (xy 317.5 181.61)
 		)
 		(stroke
@@ -7374,36 +4033,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 198.12) (xy 86.36 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "467f313e-4a5a-49a0-a8cd-dface08ef7aa")
-	)
-	(wire
-		(pts
-			(xy 81.28 175.26) (xy 81.28 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49188875-6cae-4f81-ae8d-893fb7e4be9a")
-	)
-	(wire
-		(pts
-			(xy 104.14 66.04) (xy 104.14 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "498fee14-478a-456b-bffb-23a953281cf3")
-	)
-	(wire
-		(pts
 			(xy 279.4 264.16) (xy 279.4 266.7)
 		)
 		(stroke
@@ -7434,7 +4063,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 187.96) (xy 71.12 109.22)
+			(xy 71.12 68.58) (xy 71.12 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7472,30 +4101,9 @@
 		)
 		(uuid "52698adf-9818-48e4-aab9-7c01452975b8")
 	)
-	(polyline
-		(pts
-			(xy 55.88 279.4) (xy 55.88 243.84)
-		)
-		(stroke
-			(width 0.254)
-			(type dash)
-			(color 128 0 0 1)
-		)
-		(uuid "53e8abff-11a5-4620-833f-8c6f83e765e2")
-	)
 	(wire
 		(pts
-			(xy 71.12 68.58) (xy 71.12 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5449ed96-1c7f-482f-b9f7-128f13513fdb")
-	)
-	(wire
-		(pts
-			(xy 78.74 187.96) (xy 71.12 187.96)
+			(xy 77.47 116.84) (xy 71.12 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7544,16 +4152,6 @@
 		)
 		(uuid "5626677c-c7c1-4491-bec4-549149520fa8")
 	)
-	(wire
-		(pts
-			(xy 154.94 213.36) (xy 167.64 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58366bbf-7f97-40ee-b678-c68e8dc5c751")
-	)
 	(polyline
 		(pts
 			(xy 378.46 284.48) (xy 378.46 297.18)
@@ -7584,26 +4182,6 @@
 			(type default)
 		)
 		(uuid "5daae9ec-5cd2-490f-bf20-461a94c2e8ce")
-	)
-	(wire
-		(pts
-			(xy 121.92 195.58) (xy 144.78 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e06e336-36ee-4b5d-a075-973cd279c502")
-	)
-	(wire
-		(pts
-			(xy 127 175.26) (xy 81.28 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fb7f439-3644-4d67-a490-8c25b8932f99")
 	)
 	(wire
 		(pts
@@ -7668,6 +4246,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 203.2) (xy 144.78 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6651bbd3-37c6-4d09-a582-d35e3568a9fc")
+	)
+	(wire
+		(pts
 			(xy 177.8 165.1) (xy 193.04 165.1)
 		)
 		(stroke
@@ -7685,26 +4273,6 @@
 			(type default)
 		)
 		(uuid "6a7b59a4-5ee8-4549-b142-0f2e3289bd32")
-	)
-	(wire
-		(pts
-			(xy 40.64 99.06) (xy 63.5 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ae04461-eab4-4fc2-97fb-73df475be2c7")
-	)
-	(wire
-		(pts
-			(xy 78.74 205.74) (xy 86.36 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b2cb5fd-bd4e-45ed-8f91-ce0d469592db")
 	)
 	(wire
 		(pts
@@ -7738,13 +4306,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 66.04) (xy 104.14 66.04)
+			(xy 151.13 228.6) (xy 154.94 228.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f99f0a5-9965-48f5-965c-be65e7aa37d9")
+		(uuid "70503867-cb3c-42ac-8d9c-8e520f4faed2")
 	)
 	(wire
 		(pts
@@ -7766,26 +4334,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "7330d4f3-76f8-4bc8-b901-63de915ab4e5")
-	)
-	(wire
-		(pts
-			(xy 78.74 208.28) (xy 78.74 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74862b66-a82f-4dd9-8187-579e9d4b53c7")
-	)
-	(wire
-		(pts
-			(xy 86.36 208.28) (xy 78.74 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7582e6e0-50ce-410b-996d-1b90fe49a9d2")
 	)
 	(polyline
 		(pts
@@ -7860,16 +4408,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 109.22) (xy 96.52 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e23e33b-c9bf-4e79-ada0-4ed4000bf564")
-	)
-	(wire
-		(pts
 			(xy 111.76 160.02) (xy 119.38 160.02)
 		)
 		(stroke
@@ -7933,7 +4471,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 48.26) (xy 40.64 48.26)
+			(xy 30.48 48.26) (xy 41.91 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8004,16 +4542,6 @@
 		)
 		(uuid "8ddc57c6-dcb5-4b71-9ea7-3fd92a130c00")
 	)
-	(wire
-		(pts
-			(xy 78.74 205.74) (xy 78.74 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e7fc923-ab7b-4dfb-acbb-cb922a1e4c04")
-	)
 	(polyline
 		(pts
 			(xy 353.06 292.1) (xy 353.06 297.18)
@@ -8045,26 +4573,6 @@
 			(type default)
 		)
 		(uuid "90772bf4-b10c-4c21-9767-f8a8665a301d")
-	)
-	(wire
-		(pts
-			(xy 63.5 99.06) (xy 63.5 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93f1abfc-5fa1-4061-accb-208ac9d1b370")
-	)
-	(wire
-		(pts
-			(xy 71.12 58.42) (xy 109.22 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94f7fe68-03a9-45d6-8c86-51554bfa81e3")
 	)
 	(wire
 		(pts
@@ -8105,16 +4613,6 @@
 			(type default)
 		)
 		(uuid "97007aaa-7fe6-48fa-9739-a4274e786048")
-	)
-	(wire
-		(pts
-			(xy 40.64 48.26) (xy 109.22 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97038dad-2c38-459e-8a48-8553803e1529")
 	)
 	(wire
 		(pts
@@ -8178,6 +4676,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 195.58) (xy 144.78 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5f36a9-1a21-4d3d-b725-f8e1f45a28a9")
+	)
+	(wire
+		(pts
 			(xy 215.9 88.9) (xy 233.68 88.9)
 		)
 		(stroke
@@ -8185,16 +4693,6 @@
 			(type default)
 		)
 		(uuid "9fa066c4-cc44-4711-ab18-ea8bd15cd30d")
-	)
-	(wire
-		(pts
-			(xy 22.86 223.52) (xy 86.36 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a15406fd-d457-43f5-a900-7bd4800fc964")
 	)
 	(polyline
 		(pts
@@ -8218,26 +4716,15 @@
 		)
 		(uuid "a319ac50-d94b-4e45-bb32-0a4834a228f2")
 	)
-	(polyline
-		(pts
-			(xy 55.88 243.84) (xy 149.86 243.84)
-		)
-		(stroke
-			(width 0.254)
-			(type dash)
-			(color 128 0 0 1)
-		)
-		(uuid "a4e6efd0-498c-44b5-8b0f-4ec5b6c09cb5")
-	)
 	(wire
 		(pts
-			(xy 127 187.96) (xy 127 175.26)
+			(xy 41.91 97.79) (xy 46.99 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5b26e5c-f23b-4667-99ca-b68ce0e36cbc")
+		(uuid "a5001d44-adde-4a7e-9eb2-3899bd37438d")
 	)
 	(wire
 		(pts
@@ -8249,27 +4736,6 @@
 		)
 		(uuid "a80decf3-8a18-40fb-b77c-85bb11b96f8c")
 	)
-	(polyline
-		(pts
-			(xy 149.86 279.4) (xy 149.86 243.84)
-		)
-		(stroke
-			(width 0.254)
-			(type dash)
-			(color 128 0 0 1)
-		)
-		(uuid "a91a71a8-798d-40bf-83f6-6cd88c050b60")
-	)
-	(wire
-		(pts
-			(xy 63.5 198.12) (xy 68.58 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9da7458-13eb-4a99-ad5a-217de594bcf9")
-	)
 	(wire
 		(pts
 			(xy 187.96 160.02) (xy 187.96 137.16)
@@ -8279,16 +4745,6 @@
 			(type default)
 		)
 		(uuid "ab00bc2b-a47a-433b-aaaf-e1ceab329456")
-	)
-	(wire
-		(pts
-			(xy 69.85 214.63) (xy 69.85 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab035425-d6b2-48b0-b535-1e7a2df9be2b")
 	)
 	(wire
 		(pts
@@ -8391,16 +4847,6 @@
 			(type default)
 		)
 		(uuid "b830919c-b5ed-4933-ba15-8365c19918b2")
-	)
-	(wire
-		(pts
-			(xy 121.92 187.96) (xy 127 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b89d7744-e40b-458e-8624-cf3441464539")
 	)
 	(wire
 		(pts
@@ -8544,16 +4990,6 @@
 		)
 		(uuid "c59894b9-9dcd-4ef7-99b3-a2106556f30e")
 	)
-	(wire
-		(pts
-			(xy 40.64 226.06) (xy 86.36 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6ad069e-5b55-4e12-8346-4b01f3e3879f")
-	)
 	(polyline
 		(pts
 			(xy 279.4 76.2) (xy 279.4 96.52)
@@ -8574,26 +5010,6 @@
 			(type default)
 		)
 		(uuid "c8e97855-e6ca-4a9f-bf43-968a5271468b")
-	)
-	(wire
-		(pts
-			(xy 86.36 187.96) (xy 78.74 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c903c944-8865-4779-8aba-040a63be1f78")
-	)
-	(wire
-		(pts
-			(xy 63.5 104.14) (xy 63.5 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb9ebc45-8b78-47b1-a035-2e9cd5f2d140")
 	)
 	(wire
 		(pts
@@ -8654,16 +5070,6 @@
 			(type default)
 		)
 		(uuid "d481bd3b-1d3d-4a42-ae4a-d3b1224edf9e")
-	)
-	(wire
-		(pts
-			(xy 154.94 228.6) (xy 121.92 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4b45c5a-cfcd-422e-8e4b-1e90107a20b3")
 	)
 	(polyline
 		(pts
@@ -8759,16 +5165,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 213.36) (xy 154.94 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e012ba4c-be84-449a-b639-a98393001223")
-	)
-	(wire
-		(pts
 			(xy 86.36 134.62) (xy 86.36 139.7)
 		)
 		(stroke
@@ -8819,13 +5215,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 134.62) (xy 86.36 134.62)
+			(xy 154.94 213.36) (xy 167.64 213.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5880cef-b03c-4099-9f6c-8f180cef7476")
+		(uuid "e692ee49-c65b-4026-9f8c-f9692d24ddff")
 	)
 	(wire
 		(pts
@@ -8859,16 +5255,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 203.2) (xy 144.78 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9755ea6-b3db-4b60-8245-ec467f80b34e")
-	)
-	(wire
-		(pts
 			(xy 294.64 193.04) (xy 361.95 193.04)
 		)
 		(stroke
@@ -8887,26 +5273,6 @@
 			(color 128 0 0 1)
 		)
 		(uuid "ea8788e4-68fb-4004-95f7-fbf9e9b308ed")
-	)
-	(wire
-		(pts
-			(xy 69.85 218.44) (xy 86.36 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebf7a162-4340-4108-94b8-032c0b84af42")
-	)
-	(wire
-		(pts
-			(xy 86.36 193.04) (xy 73.66 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec84fc4a-14b1-45dc-88db-df560abd6b8e")
 	)
 	(wire
 		(pts
@@ -10024,8 +6390,8 @@
 	)
 	(text_box "C31 must be placed in order to avoid stubs on XTA path when C31 not fitted.\n"
 		(exclude_from_sim no)
-		(at 55.88 177.6222 0)
-		(size -30.48 10.16)
+		(at 25.4 177.6222 0)
+		(size 30.48 10.16)
 		(stroke
 			(width 0)
 			(type default)
@@ -10162,17 +6528,6 @@
 			(justify left bottom)
 		)
 		(uuid "312c74ec-1679-4e99-bb83-08600f4b046e")
-	)
-	(text "Shield clips for metal RF cavity"
-		(exclude_from_sim no)
-		(at 119.38 276.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "32f9353d-483a-47b3-8b52-b7984bebe6d1")
 	)
 	(text "low power\n\n"
 		(exclude_from_sim no)
@@ -10482,39 +6837,6 @@
 		)
 		(uuid "fe6f909c-d967-4b8b-ab6b-da89ab11105a")
 	)
-	(label "XTA"
-		(at 76.2 223.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "06c9c111-615a-49da-be32-639905881b94")
-	)
-	(label "RFI_P"
-		(at 134.62 213.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15a984bf-c566-4494-b270-cc06b2e6952f")
-	)
-	(label "XTA"
-		(at 48.26 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "177658d6-c9ad-4fe1-8ed3-4d2532d0a85b")
-	)
 	(label "FE_CTRL1"
 		(at 223.52 83.82 0)
 		(fields_autoplaced yes)
@@ -10559,17 +6881,6 @@
 		)
 		(uuid "96ecf7e0-96be-401e-a81a-70c995e00ec6")
 	)
-	(label "RFI_N"
-		(at 134.62 228.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c224757-835e-4784-a854-d630b7cc5396")
-	)
 	(label "FE_CTRL3"
 		(at 223.52 88.9 0)
 		(fields_autoplaced yes)
@@ -10613,6 +6924,380 @@
 			(justify left bottom)
 		)
 		(uuid "f0450aaa-6b87-4aed-950d-c4e5486c9f12")
+	)
+	(global_label "VFBSMPS"
+		(shape input)
+		(at 71.12 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0233ff3e-bd57-4db6-ad33-e45888342391")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.6928 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VR_PA"
+		(shape input)
+		(at 86.36 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03b643fa-27f4-4bff-898a-d29eb18d8df4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VFBSMPS"
+		(shape input)
+		(at 96.52 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21aead08-5560-41b8-95bf-652ef227ebbc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.9472 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PB0_VDD_TCXO"
+		(shape input)
+		(at 63.5 222.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3182ccf4-e41b-4fe8-8442-af180e8497ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.5761 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDDSMPS"
+		(shape input)
+		(at 41.91 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62fb89bf-ad74-4f4b-91ab-3e5fdef0c37e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.6642 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDDSMPS"
+		(shape input)
+		(at 96.52 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a8a7533-2c71-4453-bcc4-07faf7c6156a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.7658 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OSC_IN"
+		(shape input)
+		(at 48.26 116.84 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b35fb8b-918c-461d-b042-511aed905eb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 107.1419 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDDRF1V55"
+		(shape input)
+		(at 77.47 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8927fe04-9c74-4ad3-a62a-5f69774ad0c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.1595 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFO_LP"
+		(shape input)
+		(at 139.7 203.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "892ff695-c2fd-49fc-a886-509b02e98da4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.76 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDDRF"
+		(shape input)
+		(at 46.99 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b83f2f6-bae2-42f5-b165-45cb2a4b857c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.9624 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OSC_IN"
+		(shape input)
+		(at 22.86 223.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aad32582-3b66-4b40-b131-a25a2e461a68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.5581 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OSC_OUT"
+		(shape input)
+		(at 40.64 226.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "adc45117-aa13-4b31-a210-d964325b45e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.0314 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFI_P"
+		(shape input)
+		(at 151.13 213.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c303fc1a-9f34-445e-9c70-01db96514346")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.9438 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VLXSMPS"
+		(shape input)
+		(at 55.88 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0b82095-a88d-4ba4-a64e-f2586a6e191e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.3318 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFI_N"
+		(shape input)
+		(at 151.13 228.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0ebf209-a640-437a-bdfc-bec11346a023")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.8833 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFO_HP"
+		(shape input)
+		(at 139.7 195.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f14df3df-45ea-4454-b52d-cc14b46b33f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.4576 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDDPA"
+		(shape input)
+		(at 91.44 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f730a943-adae-417c-9319-7d125502fd06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.4676 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "FE_CTRL3"
 		(shape passive)
@@ -10823,378 +7508,6 @@
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "L5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Shield-clip_S0951-46R")
-		(at 99.06 266.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "019ad7b3-e391-443d-ae61-a72410b357a9")
-		(property "Reference" "SC6"
-			(at 98.044 263.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 101.6 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CLIP_HARWIN_S0951-46R"
-			(at 99.06 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "shield clip Harwin S0951-46R to fix RF shielded cavity"
-			(at 99.06 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01587"
-			(at 98.044 263.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "S0951-46R"
-			(at 99.06 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Footprint available"
-			(at 98.044 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Connector"
-			(at 98.044 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "S0951-46R"
-			(at 98.044 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "HARWIN"
-			(at 98.044 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "na"
-			(at 98.044 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 98.044 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Connectors/Harwin_Shield-clip_S0951-46R"
-			(at 98.044 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "tbd"
-			(at 98.044 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "tbd"
-			(at 98.044 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 98.044 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e3c9f9d-dd20-4ecb-845e-e2cf7f7b220a")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "SC6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Shield-clip_S0951-46R")
-		(at 81.28 266.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "032edd80-8501-4f89-8e13-8e9b520584e6")
-		(property "Reference" "SC3"
-			(at 80.264 263.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 83.82 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CLIP_HARWIN_S0951-46R"
-			(at 81.28 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "shield clip Harwin S0951-46R to fix RF shielded cavity"
-			(at 81.28 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01587"
-			(at 80.264 263.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "S0951-46R"
-			(at 81.28 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Footprint available"
-			(at 80.264 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Connector"
-			(at 80.264 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "S0951-46R"
-			(at 80.264 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "HARWIN"
-			(at 80.264 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "na"
-			(at 80.264 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 80.264 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Connectors/Harwin_Shield-clip_S0951-46R"
-			(at 80.264 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "tbd"
-			(at 80.264 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "tbd"
-			(at 80.264 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 80.264 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd54400c-58b6-4a20-8178-9b0bd4d2519d")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "SC3")
 					(unit 1)
 				)
 			)
@@ -11467,407 +7780,6 @@
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "#PWR0129")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_STM32WL5x_BGA73")
-		(at 111.76 43.18 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d3d390a-851a-4faf-a682-bea4c25c846a")
-		(property "Reference" "U6"
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 111.76 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "parts:QFN50P700X700X60-49N"
-			(at 134.366 41.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32wl55jc.pdf"
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multiprotocol Wireless 32-bit MCUwith LPWAN Sub-GHz radio solution"
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01435"
-			(at 108.712 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "STM32WL55JCI7"
-			(at 111.76 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Footprint available"
-			(at 108.712 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "IC"
-			(at 108.712 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "STM32WL55JCI7"
-			(at 108.712 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "STMICROELECTRONICS"
-			(at 108.712 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "UFBGA73"
-			(at 108.712 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 108.712 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/IC/STM_STM32WL5x"
-			(at 108.712 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "n/a"
-			(at 108.712 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "tbd"
-			(at 108.712 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "tbd"
-			(at 108.712 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "C6"
-			(uuid "c94ecaf9-9111-41b1-afe2-c02a6a80c3cc")
-		)
-		(pin "B4"
-			(uuid "aa25f446-e28c-4770-9923-be7288e52f07")
-		)
-		(pin "C8"
-			(uuid "0e7b2c83-2920-487f-9899-38ac25f8e40c")
-		)
-		(pin "H8"
-			(uuid "a08cc4a9-dd0a-4fb6-9de4-18c60df7cd72")
-		)
-		(pin "H7"
-			(uuid "18342f51-dd9d-46de-a959-3a83978a10c4")
-		)
-		(pin "B1"
-			(uuid "acc51ff5-7357-4201-9c0e-02a81abf222a")
-		)
-		(pin "A9"
-			(uuid "eef651dc-ab53-4721-8bb0-9b62e4c4a64c")
-		)
-		(pin "B8"
-			(uuid "97bdb6ea-7dd4-48f4-a7c7-a9e356dcae9a")
-		)
-		(pin "C5"
-			(uuid "2b3613c3-1377-488e-b88f-7b1fb64949bc")
-		)
-		(pin "A1"
-			(uuid "3a8de2bd-a325-488f-9906-45f6bb453c19")
-		)
-		(pin "E9"
-			(uuid "0fc0818c-6105-40a2-92de-c6d371f8b173")
-		)
-		(pin "B3"
-			(uuid "5be107da-6930-4efa-8723-b0d03074a3c0")
-		)
-		(pin "G6"
-			(uuid "33c50eb5-7153-4df6-ac88-89f523c87af2")
-		)
-		(pin "E6"
-			(uuid "1a7c7e7c-92f1-4c36-b2a0-715029178d9a")
-		)
-		(pin "H2"
-			(uuid "d99843c3-0024-4c7f-b8f8-c0940313d1b9")
-		)
-		(pin "J5"
-			(uuid "29c1e0ad-9910-49d2-abf7-220b8ac3f8b3")
-		)
-		(pin "H6"
-			(uuid "545383ab-b292-449d-bfbb-41a75d837fdb")
-		)
-		(pin "B9"
-			(uuid "9c1e1d35-9a5b-44eb-bc1d-8866a5b84a25")
-		)
-		(pin "A4"
-			(uuid "f345b4f5-aaf9-492d-89ba-c0d81b6d39f9")
-		)
-		(pin "C2"
-			(uuid "12da54d3-aaad-4827-a2db-b3b4d52f3f86")
-		)
-		(pin "F4"
-			(uuid "cc5768c3-eda5-4403-80ef-c0e3df507c94")
-		)
-		(pin "G8"
-			(uuid "7274b5a1-6d7a-4c1d-bb15-de9f6bb58034")
-		)
-		(pin "D9"
-			(uuid "b4f1d322-2b3a-45e6-b840-78da2cd5328d")
-		)
-		(pin "E3"
-			(uuid "dbc58fdb-ba8a-4a1f-9ef1-d533809e6216")
-		)
-		(pin "J8"
-			(uuid "49d54821-ef8a-4b30-bd43-b399f4a05f75")
-		)
-		(pin "F6"
-			(uuid "fbe7bfe3-2f4d-4553-b11b-067e98edcd4b")
-		)
-		(pin "J9"
-			(uuid "b4e01650-7bc6-4273-8b32-1a37f34afc80")
-		)
-		(pin "E2"
-			(uuid "6eec4220-92a4-471d-ae9a-58b72af422db")
-		)
-		(pin "B7"
-			(uuid "f63d4f7d-5e8f-4388-b905-f483018fecc0")
-		)
-		(pin "E8"
-			(uuid "ffba2b07-ac95-4ec2-8b64-aeeb78d20c4e")
-		)
-		(pin "B5"
-			(uuid "680b13e9-80c3-4d4f-836e-1a091a490991")
-		)
-		(pin "A7"
-			(uuid "9c6c56c8-4f1b-4428-9e40-4516106153ed")
-		)
-		(pin "G5"
-			(uuid "4bb85437-9320-4acf-8523-e7ec6d54cd77")
-		)
-		(pin "A2"
-			(uuid "20368d5f-bf2e-44be-8ad4-3f83d6e75075")
-		)
-		(pin "H9"
-			(uuid "19f7dad0-994d-40a4-82a9-91beeea1eae5")
-		)
-		(pin "F7"
-			(uuid "6d1946c9-a84d-450a-8d25-a310d98bb29e")
-		)
-		(pin "G7"
-			(uuid "19c77e24-2203-43f0-9963-7e8606a9220b")
-		)
-		(pin "F8"
-			(uuid "f50aeb1c-56ee-497f-90b6-02774c97f9d3")
-		)
-		(pin "D7"
-			(uuid "05d6abd5-8398-4138-ac3f-57e5648bff25")
-		)
-		(pin "A8"
-			(uuid "f886785f-057a-4f5b-8b5f-39bead42cb70")
-		)
-		(pin "G3"
-			(uuid "8f9b57bb-7606-426b-8227-44d57d25a093")
-		)
-		(pin "H3"
-			(uuid "4c9d2d40-8d93-407a-9cc6-477e3c8b7bc8")
-		)
-		(pin "D6"
-			(uuid "83005be9-53e9-44e7-a5b0-e8f6fae8bc6c")
-		)
-		(pin "F2"
-			(uuid "ecbcb75d-c873-4b6e-b647-1a80a9c04329")
-		)
-		(pin "J6"
-			(uuid "f96bca6f-df71-43ba-bae3-03715f15f2ba")
-		)
-		(pin "F5"
-			(uuid "06039e60-5c94-4edb-b941-087c30e598ab")
-		)
-		(pin "B6"
-			(uuid "cb3917f2-9c1a-4c1d-9a40-929f6bcb9b72")
-		)
-		(pin "G9"
-			(uuid "c29d4eab-3a78-44dc-a88d-ca038bae9e45")
-		)
-		(pin "H5"
-			(uuid "f24f2a0a-b5ae-40a7-a35d-63a7e1053b1c")
-		)
-		(pin "D3"
-			(uuid "9b0b0d87-cd37-4f0b-9148-e46a16e16cb0")
-		)
-		(pin "B2"
-			(uuid "5e6459a9-ad34-4ead-91e8-21d27f85263e")
-		)
-		(pin "F1"
-			(uuid "8be61a8d-d52b-4981-bb6c-4895913b288b")
-		)
-		(pin "D4"
-			(uuid "2057e2b6-d48e-428a-9abd-17dc870c8201")
-		)
-		(pin "A5"
-			(uuid "e96f4369-66c7-490e-a7ad-2b3421fa0f8d")
-		)
-		(pin "C3"
-			(uuid "c0a0345b-c197-4df9-a2cc-cad28fb6f667")
-		)
-		(pin "G2"
-			(uuid "0d5df2ef-c4be-468e-98d6-315423d0b1d3")
-		)
-		(pin "H4"
-			(uuid "1111e621-1268-4787-bc1c-309209e8dd09")
-		)
-		(pin "E1"
-			(uuid "863e4336-6045-4028-9979-66c34e27a77b")
-		)
-		(pin "D2"
-			(uuid "e6cacd68-28f7-45b0-b6e6-d5e0905cdd23")
-		)
-		(pin "H1"
-			(uuid "174a5f1b-bc2f-469b-9db0-27cae2a68fe0")
-		)
-		(pin "E7"
-			(uuid "6fc393a1-d68c-4c25-8ab0-5125db78f9e5")
-		)
-		(pin "J2"
-			(uuid "807525d3-cdd6-4d5c-b4f5-86953dd8fee2")
-		)
-		(pin "J3"
-			(uuid "a38f00f0-9498-4bef-9491-f46e34f1d5ef")
-		)
-		(pin "D8"
-			(uuid "388fc654-d589-4e20-82ed-167209a19f14")
-		)
-		(pin "G4"
-			(uuid "314ad7fa-6721-4662-b3d3-95e479b33560")
-		)
-		(pin "C1"
-			(uuid "4d035ebe-31bf-4975-b507-3821a518a3af")
-		)
-		(pin "F3"
-			(uuid "81371212-4c12-43ff-991e-c264f74fc4cc")
-		)
-		(pin "J1"
-			(uuid "f95ffe20-5bbf-4e27-9559-8064b2507b57")
-		)
-		(pin "C4"
-			(uuid "25ad78bb-b91d-465a-b674-a2287c380cf9")
-		)
-		(pin "E5"
-			(uuid "bfb7f898-60c8-4a63-b4c7-5fbd74972412")
-		)
-		(pin "E4"
-			(uuid "312f8518-446e-42f9-993c-eeef831e9f8d")
-		)
-		(pin "D5"
-			(uuid "80ee2e4a-e4c0-45e5-86ad-c37c1379d7c6")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "U6")
-					(unit 2)
-				)
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/991445d1-ac72-4dc7-8e85-5e852498bc5d"
-					(reference "U6")
-					(unit 2)
 				)
 			)
 		)
@@ -12319,72 +8231,6 @@
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
-		(at 78.74 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15e36119-aa9b-4c46-8128-12aeac99946e")
-		(property "Reference" "#PWR0150"
-			(at 78.74 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "2f71296c-8c06-4fa5-bb01-fe896ba58feb")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -13922,138 +9768,6 @@
 	)
 	(symbol
 		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
-		(at 81.28 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c11a426-d4c8-4971-9cdd-1addd6bed794")
-		(property "Reference" "#PWR0148"
-			(at 81.28 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "4ca6bfa6-da86-49d4-b906-4910e7b1141f")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "#PWR0148")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
-		(at 81.28 266.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2cedca6a-8480-43e9-9964-e9186b87a8df")
-		(property "Reference" "#PWR0127"
-			(at 81.28 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "25c29599-4b20-43ca-8196-f0921a186e7f")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "#PWR0127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
 		(at 220.98 269.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14724,72 +10438,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
-		(at 63.5 266.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3d6e99bc-ce3e-40f8-8078-3f847cd06052")
-		(property "Reference" "#PWR0124"
-			(at 63.5 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "37d998fc-d92b-4904-838c-60b5aedfe811")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "#PWR0124")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Inductor")
 		(at 147.32 200.66 0)
 		(unit 1)
@@ -15452,7 +11100,7 @@
 	)
 	(symbol
 		(lib_id "MB1389-altium-import:VDDPA_BAR")
-		(at 73.66 193.04 180)
+		(at 91.44 128.27 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15460,7 +11108,7 @@
 		(dnp no)
 		(uuid "43b6a7a1-72da-4ebd-a147-194111c681db")
 		(property "Reference" "#PWR0135"
-			(at 73.66 193.04 0)
+			(at 91.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15469,7 +11117,7 @@
 			)
 		)
 		(property "Value" "VDDPA"
-			(at 73.66 189.23 0)
+			(at 91.44 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15477,7 +11125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 193.04 0)
+			(at 91.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15486,7 +11134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 193.04 0)
+			(at 91.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15495,7 +11143,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 193.04 0)
+			(at 91.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15714,71 +11362,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MB1389-altium-import:VDDRF_BAR")
-		(at 68.58 198.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d7dac1d-1ad0-4201-9b5f-c628d5d6a876")
-		(property "Reference" "#PWR0120"
-			(at 68.58 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDDRF"
-			(at 68.58 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "d688de86-31e3-43c5-95a6-21b07220488d")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_1_Capacitor")
 		(at 327.66 271.78 0)
 		(unit 1)
@@ -15971,192 +11554,6 @@
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Shield-clip_S0951-46R")
-		(at 81.28 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f044ac9-0c1d-44a4-82e4-e0a7d57cbe73")
-		(property "Reference" "SC7"
-			(at 80.264 250.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 83.82 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CLIP_HARWIN_S0951-46R"
-			(at 81.28 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "shield clip Harwin S0951-46R to fix RF shielded cavity"
-			(at 81.28 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01587"
-			(at 80.264 250.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "S0951-46R"
-			(at 81.28 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Footprint available"
-			(at 80.264 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Connector"
-			(at 80.264 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "S0951-46R"
-			(at 80.264 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "HARWIN"
-			(at 80.264 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "na"
-			(at 80.264 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 80.264 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Connectors/Harwin_Shield-clip_S0951-46R"
-			(at 80.264 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "tbd"
-			(at 80.264 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "tbd"
-			(at 80.264 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 80.264 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c30e2e3b-67eb-4639-bdb4-54ceadb7ab0a")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "SC7")
 					(unit 1)
 				)
 			)
@@ -17341,6 +12738,71 @@
 		)
 	)
 	(symbol
+		(lib_id "MB1389-altium-import:VDDRF_BAR")
+		(at 46.99 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bcc4f7d-1090-4553-8650-3320cac121b3")
+		(property "Reference" "#PWR034"
+			(at 46.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDRF"
+			(at 46.99 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8e3ca57e-ab5f-44ef-9bef-a409e70e993e")
+		)
+		(instances
+			(project "radioboard_dev"
+				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
 		(at 330.2 274.32 0)
 		(unit 1)
@@ -17401,192 +12863,6 @@
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "#PWR0162")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Shield-clip_S0951-46R")
-		(at 99.06 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c0940dc-8bf3-4225-88f0-cf1d734c7d0a")
-		(property "Reference" "SC5"
-			(at 98.044 250.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 101.6 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CLIP_HARWIN_S0951-46R"
-			(at 99.06 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "shield clip Harwin S0951-46R to fix RF shielded cavity"
-			(at 99.06 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01587"
-			(at 98.044 250.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "S0951-46R"
-			(at 99.06 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Footprint available"
-			(at 98.044 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Connector"
-			(at 98.044 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "S0951-46R"
-			(at 98.044 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "HARWIN"
-			(at 98.044 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "na"
-			(at 98.044 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 98.044 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Connectors/Harwin_Shield-clip_S0951-46R"
-			(at 98.044 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "tbd"
-			(at 98.044 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "tbd"
-			(at 98.044 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 98.044 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "adcaea05-cea4-45c2-a308-5c004a17fced")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "SC5")
 					(unit 1)
 				)
 			)
@@ -19275,258 +14551,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Shield-clip_S0951-46R")
-		(at 63.5 266.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76cb710e-4c15-4e0b-a260-74b035766608")
-		(property "Reference" "SC4"
-			(at 62.484 263.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 66.04 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CLIP_HARWIN_S0951-46R"
-			(at 63.5 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "shield clip Harwin S0951-46R to fix RF shielded cavity"
-			(at 63.5 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01587"
-			(at 62.484 263.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "S0951-46R"
-			(at 63.5 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Footprint available"
-			(at 62.484 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Connector"
-			(at 62.484 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "S0951-46R"
-			(at 62.484 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "HARWIN"
-			(at 62.484 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "na"
-			(at 62.484 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 62.484 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Connectors/Harwin_Shield-clip_S0951-46R"
-			(at 62.484 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "tbd"
-			(at 62.484 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "tbd"
-			(at 62.484 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 62.484 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e646c0f-9407-4ae9-b7a0-c85e707c68d4")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "SC4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
-		(at 63.5 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7742c516-969a-414f-885f-5f49999fefe3")
-		(property "Reference" "#PWR0149"
-			(at 63.5 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "4917456d-a180-4d8f-aa8e-491ba5467a8f")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "#PWR0149")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
 		(at 259.08 190.5 0)
 		(unit 1)
@@ -21159,7 +16183,7 @@
 	)
 	(symbol
 		(lib_id "MB1389-altium-import:PB0_VDD_TCXO_BAR")
-		(at 69.85 214.63 270)
+		(at 63.5 222.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21167,7 +16191,7 @@
 		(dnp no)
 		(uuid "8cd3d2c3-138c-4758-8ab5-e577228a0fdd")
 		(property "Reference" "#PWR0151"
-			(at 69.85 214.63 0)
+			(at 63.5 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21176,7 +16200,7 @@
 			)
 		)
 		(property "Value" "PB0_VDD_TCXO"
-			(at 66.04 214.63 0)
+			(at 59.69 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21184,7 +16208,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 214.63 0)
+			(at 63.5 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21193,7 +16217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 214.63 0)
+			(at 63.5 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21202,7 +16226,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 214.63 0)
+			(at 63.5 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21623,72 +16647,6 @@
 	)
 	(symbol
 		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
-		(at 116.84 266.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9862fa6b-e19f-41f1-8e82-2bfee92190c6")
-		(property "Reference" "#PWR0125"
-			(at 116.84 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "5f588a23-2adb-4fdd-be9d-f5b37dbff4df")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
 		(at 154.94 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21748,72 +16706,6 @@
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
-		(at 99.06 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1cd1111-5681-47e7-b357-b9ebd141cb58")
-		(property "Reference" "#PWR0122"
-			(at 99.06 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "91b615ba-cacb-4360-a1c0-4a56275592dc")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -22347,408 +17239,6 @@
 		)
 	)
 	(symbol
-		(lib_name "U_STM32_microcontroller_RF_0_STM32WL5x_BGA73_1")
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_STM32WL5x_BGA73")
-		(at 88.9 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a80cfe77-bb2a-4320-aac4-09a89c0917f5")
-		(property "Reference" "U6"
-			(at 88.9 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 88.9 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "parts:QFN50P700X700X60-49N"
-			(at 111.506 180.848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32wl55jc.pdf"
-			(at 88.9 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multiprotocol Wireless 32-bit MCUwith LPWAN Sub-GHz radio solution"
-			(at 88.9 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01435"
-			(at 85.852 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "STM32WL55JCI7"
-			(at 88.9 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Footprint available"
-			(at 85.852 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "IC"
-			(at 85.852 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "STM32WL55JCI7"
-			(at 85.852 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "STMICROELECTRONICS"
-			(at 85.852 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "UFBGA73"
-			(at 85.852 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 85.852 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/IC/STM_STM32WL5x"
-			(at 85.852 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "n/a"
-			(at 85.852 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "tbd"
-			(at 85.852 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "tbd"
-			(at 85.852 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "H8"
-			(uuid "75a6df10-04c5-4f5c-b761-6da27bc92051")
-		)
-		(pin "J9"
-			(uuid "c1cf6d82-07d6-4bd6-85cd-93c89e6600b3")
-		)
-		(pin "J6"
-			(uuid "b96cec5f-6a1a-4abc-bfd9-75937d3b74d2")
-		)
-		(pin "J8"
-			(uuid "dcb751bb-bf5e-4124-b1b1-26f762f2b2db")
-		)
-		(pin "H9"
-			(uuid "48efaf33-d9f9-46df-9348-3d96e0a10b5e")
-		)
-		(pin "E8"
-			(uuid "b3aa83e3-193b-43a9-9bdb-07229d00c82f")
-		)
-		(pin "E1"
-			(uuid "aad812e6-06c5-4ded-878e-1b265a576748")
-		)
-		(pin "H2"
-			(uuid "cf0f0cf4-2814-469a-a0be-f2644bfaff33")
-		)
-		(pin "H1"
-			(uuid "c8a8ff43-735c-4363-95b2-1e4f70992955")
-		)
-		(pin "G7"
-			(uuid "84d0c249-cdb6-4051-b821-7d5b476befd4")
-		)
-		(pin "F2"
-			(uuid "1393a044-2e0d-4dc7-8f19-d5f682c044be")
-		)
-		(pin "J2"
-			(uuid "bc979c0d-f7db-4581-92e3-0dd8244ad4b0")
-		)
-		(pin "G8"
-			(uuid "59227adc-22b3-440a-af49-2005afa55072")
-		)
-		(pin "F8"
-			(uuid "9450203d-a15d-4acc-a3fe-fd32a1714a6d")
-		)
-		(pin "B3"
-			(uuid "cabf51e1-f847-48b8-a55c-8f22bf95bfff")
-		)
-		(pin "B7"
-			(uuid "a637866b-7c7a-4da3-a8b3-3d265b60cf2f")
-		)
-		(pin "A1"
-			(uuid "d04cec1a-cb96-4c35-82f8-2cfd6a0ebcfa")
-		)
-		(pin "E2"
-			(uuid "e50e2e51-eca7-4be7-b4b4-f42294036bf2")
-		)
-		(pin "H5"
-			(uuid "22b914fa-714d-42e6-815a-ca33a9985759")
-		)
-		(pin "G5"
-			(uuid "e442acae-2f7c-49c7-b860-4086cc82fa93")
-		)
-		(pin "F4"
-			(uuid "4c4ff744-4be8-4a35-be25-d1b233ae0c1c")
-		)
-		(pin "F6"
-			(uuid "696cf3e9-4650-4fa7-b958-1d0707503239")
-		)
-		(pin "D3"
-			(uuid "b168c375-cb34-4872-958d-ccbfb109cf79")
-		)
-		(pin "E6"
-			(uuid "77ac6610-8a90-4b47-9eaf-abd49f8770ab")
-		)
-		(pin "C2"
-			(uuid "b4b72e93-eae7-44e5-ba83-76ad88ccf2be")
-		)
-		(pin "E7"
-			(uuid "2d2ea59c-5575-42b7-a6d5-bedb5d4a24bf")
-		)
-		(pin "J3"
-			(uuid "1c7ad0f7-88e6-4e56-b275-a451abc8eabc")
-		)
-		(pin "C4"
-			(uuid "b5097177-c494-4c96-8525-f6033b3fd847")
-		)
-		(pin "H7"
-			(uuid "c1347faa-e9ac-4f96-ac8b-ab0dcf7b9469")
-		)
-		(pin "A2"
-			(uuid "64e4e1a7-3855-4cff-b810-21a1a152b686")
-		)
-		(pin "B6"
-			(uuid "cb7486c1-5de2-4c4f-a340-5a125c091c4f")
-		)
-		(pin "B9"
-			(uuid "a0c7b7dc-22d6-4a17-aa87-33bb88ada215")
-		)
-		(pin "H4"
-			(uuid "b2240546-c1ce-4720-b75f-537017ef2647")
-		)
-		(pin "G4"
-			(uuid "92a79188-634d-4390-a13a-7edce9fca53c")
-		)
-		(pin "D6"
-			(uuid "896bf9a3-3953-4732-9a57-37f9c505ff76")
-		)
-		(pin "A7"
-			(uuid "ca629917-d329-4bfd-9d05-050ca08d8e1b")
-		)
-		(pin "F1"
-			(uuid "6484aa12-eec9-46be-a658-2129f8ec376f")
-		)
-		(pin "E3"
-			(uuid "68bd8be6-0f8e-4704-86e8-14d681aa9726")
-		)
-		(pin "B8"
-			(uuid "2fc1bff5-365d-4d40-8d18-b5780d54205e")
-		)
-		(pin "J5"
-			(uuid "0832cb43-fada-496b-b3c7-a90c3485bf1e")
-		)
-		(pin "A5"
-			(uuid "617b283e-6edf-4508-b801-aacf86992693")
-		)
-		(pin "A4"
-			(uuid "c173cc1b-56a9-463b-9173-cb4a94e056ba")
-		)
-		(pin "J1"
-			(uuid "d0684cee-6edb-460a-b481-8297921a69b4")
-		)
-		(pin "G9"
-			(uuid "6b29e5ac-8d9e-4a0f-8f52-cb63339a96ce")
-		)
-		(pin "C5"
-			(uuid "0c9536b5-3ab1-4bfa-81eb-c816331f2450")
-		)
-		(pin "E5"
-			(uuid "9cd94181-3351-4254-bb40-a8a2d68bf08d")
-		)
-		(pin "B1"
-			(uuid "51ea34e8-0d29-4be8-ae2a-a60f8f3246c3")
-		)
-		(pin "D2"
-			(uuid "53600d71-8d6e-4878-b868-1fdcaf5de823")
-		)
-		(pin "A8"
-			(uuid "e4778288-ddbe-4a9e-9826-a3388a524f96")
-		)
-		(pin "D8"
-			(uuid "874f11db-beaf-46df-8369-b5fbc476884d")
-		)
-		(pin "H6"
-			(uuid "524ada93-f38b-4089-b2bc-f97a73f28ca8")
-		)
-		(pin "C1"
-			(uuid "daf046d1-d805-42f8-a17f-ed4ec3aeeade")
-		)
-		(pin "D5"
-			(uuid "2df0722d-cd88-4bef-8575-a8d35036aea2")
-		)
-		(pin "F7"
-			(uuid "576984df-c99b-4da6-b835-46ee23d995fc")
-		)
-		(pin "D9"
-			(uuid "b5e0f2e9-431f-4282-a160-e355c4d1cf0f")
-		)
-		(pin "G3"
-			(uuid "0c94aa7c-22a9-4421-9be0-73e9574c71b0")
-		)
-		(pin "C3"
-			(uuid "88b95421-eecd-44da-aed6-fa5dc684be39")
-		)
-		(pin "E9"
-			(uuid "0dd344a4-add8-4c2a-a74f-ca077d3f2fbf")
-		)
-		(pin "B4"
-			(uuid "190c262d-f64a-4226-bc47-1d00689f8ba8")
-		)
-		(pin "B5"
-			(uuid "aacfcf51-079e-4641-be4e-51d2d608f018")
-		)
-		(pin "D4"
-			(uuid "c4fab539-9a07-435b-8a6c-7e7aa7c1db55")
-		)
-		(pin "C8"
-			(uuid "8e85d713-6c9a-499c-9e2f-2a9b1757a0d1")
-		)
-		(pin "C6"
-			(uuid "d4bc181d-49c6-46e0-ae0a-706f416bbb2e")
-		)
-		(pin "G6"
-			(uuid "11c018e8-60db-45cd-938d-1431c969e77c")
-		)
-		(pin "F5"
-			(uuid "06383d48-4ed9-483d-90aa-25661ed79157")
-		)
-		(pin "H3"
-			(uuid "82dfc790-b25e-481c-a30c-2ef308b63184")
-		)
-		(pin "B2"
-			(uuid "7e0f25da-0e85-456c-9f09-6b0bfec0886e")
-		)
-		(pin "D7"
-			(uuid "bec15ae8-aad7-4bf4-a087-27ccffee550e")
-		)
-		(pin "A9"
-			(uuid "864e6294-2b39-4a11-8960-65ca19c15085")
-		)
-		(pin "G2"
-			(uuid "c8b31160-355e-4413-b6a1-9a249336defa")
-		)
-		(pin "F3"
-			(uuid "9137d524-81d6-4a83-9963-4874fd110edd")
-		)
-		(pin "E4"
-			(uuid "043c3818-3aca-4c17-a928-602679a739f3")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "U6")
-					(unit 1)
-				)
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/991445d1-ac72-4dc7-8e85-5e852498bc5d"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_1_Capacitor")
 		(at 256.54 147.32 0)
 		(unit 1)
@@ -22987,222 +17477,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Shield-clip_S0951-46R")
-		(at 116.84 266.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aa1f6689-2f12-4230-a891-38c137e8aec1")
-		(property "Reference" "SC8"
-			(at 115.824 263.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Shield-clip_S0981-46R"
-			(at 119.38 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "shield clip Harwin S0981-46R to fix RF shielded cavity - SMT RFI Shield Clip, Corner (T+R)"
-			(at 116.84 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-02164"
-			(at 115.824 263.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "S0981-46R"
-			(at 116.84 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 115.824 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Misc"
-			(at 115.824 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "S0981-46R"
-			(at 115.824 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "HARWIN"
-			(at 115.824 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTERNATE_MANUFACTURER_PART_NUMBER" "N/A"
-			(at 115.824 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTERNATE_MANUFACTURER" "N/A"
-			(at 115.824 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 115.824 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Connectors/Harwin_Shield-clip_S0981-46R"
-			(at 115.824 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_DIGIKEY" "952-2518-1-ND"
-			(at 115.824 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_FARNELL" "2361678"
-			(at 115.824 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_RS" "161-3702"
-			(at 115.824 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 115.824 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PCB_FOOTPRINT_REF1" "CLIP_HARWIN_S0981-46R"
-			(at 115.824 261.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f4af3ea-3604-442b-aae6-4200276b25a9")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "SC8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Inductor")
 		(at 208.28 175.26 0)
 		(unit 1)
@@ -23402,7 +17676,7 @@
 	)
 	(symbol
 		(lib_id "MB1389-altium-import:VDDRF1V55_BAR")
-		(at 78.74 187.96 180)
+		(at 77.47 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23410,7 +17684,7 @@
 		(dnp no)
 		(uuid "aae6434c-cc9a-4140-a9e0-ccb5d965d8f1")
 		(property "Reference" "#PWR0136"
-			(at 78.74 187.96 0)
+			(at 77.47 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23419,7 +17693,7 @@
 			)
 		)
 		(property "Value" "VDDRF1V55"
-			(at 78.74 184.15 0)
+			(at 77.47 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23427,7 +17701,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 187.96 0)
+			(at 77.47 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23436,7 +17710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 187.96 0)
+			(at 77.47 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23445,7 +17719,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 187.96 0)
+			(at 77.47 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23460,474 +17734,6 @@
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "#PWR0136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Shield-clip_S0951-46R")
-		(at 63.5 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "accb5cd2-d513-45a8-81e3-454cd2549b2c")
-		(property "Reference" "SC1"
-			(at 62.484 250.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 66.04 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CLIP_HARWIN_S0951-46R"
-			(at 63.5 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "shield clip Harwin S0951-46R to fix RF shielded cavity"
-			(at 63.5 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01587"
-			(at 62.484 250.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "S0951-46R"
-			(at 63.5 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Footprint available"
-			(at 62.484 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Connector"
-			(at 62.484 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "S0951-46R"
-			(at 62.484 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "HARWIN"
-			(at 62.484 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "na"
-			(at 62.484 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 62.484 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Connectors/Harwin_Shield-clip_S0951-46R"
-			(at 62.484 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "tbd"
-			(at 62.484 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "tbd"
-			(at 62.484 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 62.484 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffba9bd7-8980-4d59-97c3-d5ca160d49ae")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "SC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Shield-clip_S0951-46R")
-		(at 134.62 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad5d057a-4487-46be-a05b-34a4710d0412")
-		(property "Reference" "SC2"
-			(at 133.604 250.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Shield-clip_S0951-46R"
-			(at 137.16 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "shield clip Harwin S0911-46R to fix RF shielded cavity - SMT RFI Shield Clip, Compact (T+R)"
-			(at 134.62 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-02165"
-			(at 133.604 250.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "S0911-46R"
-			(at 134.62 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 133.604 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Misc"
-			(at 133.604 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "S0911-46R"
-			(at 133.604 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "HARWIN"
-			(at 133.604 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTERNATE_MANUFACTURER_PART_NUMBER" "N/A"
-			(at 133.604 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTERNATE_MANUFACTURER" "N/A"
-			(at 133.604 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 133.604 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Connectors/Harwin_Shield-clip_S0911-46R"
-			(at 133.604 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_DIGIKEY" "952-4312-1-ND"
-			(at 133.604 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_FARNELL" "3104143"
-			(at 133.604 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_RS" "N/A"
-			(at 133.604 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 133.604 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PCB_FOOTPRINT_REF1" "CLIP_HARWIN_S0911-46R"
-			(at 133.604 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24416800-2098-4b55-bea7-f8ef88a8605e")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "SC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
-		(at 104.14 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b0b6d582-d5fb-4bb2-ad4e-46d7db26a161")
-		(property "Reference" "#PWR0117"
-			(at 104.14 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "b0cd6588-ca63-406d-b648-b6a446e6739d")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -24787,72 +18593,6 @@
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
-		(at 99.06 266.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b734bcbc-aa2b-4308-91c0-5dd592ac2bbd")
-		(property "Reference" "#PWR0123"
-			(at 99.06 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "02d09331-abce-4c2f-85ea-ffa608e72ebf")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -26107,222 +19847,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Shield-clip_S0951-46R")
-		(at 116.84 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c8d2831a-351f-46cc-8fe5-63279b33be82")
-		(property "Reference" "SC9"
-			(at 115.824 250.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Shield-clip_S0981-46R"
-			(at 119.38 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "shield clip Harwin S0981-46R to fix RF shielded cavity - SMT RFI Shield Clip, Corner (T+R)"
-			(at 116.84 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-02164"
-			(at 115.824 250.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "S0981-46R"
-			(at 116.84 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 115.824 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Misc"
-			(at 115.824 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "S0981-46R"
-			(at 115.824 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "HARWIN"
-			(at 115.824 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTERNATE_MANUFACTURER_PART_NUMBER" "N/A"
-			(at 115.824 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTERNATE_MANUFACTURER" "N/A"
-			(at 115.824 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 115.824 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Connectors/Harwin_Shield-clip_S0981-46R"
-			(at 115.824 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_DIGIKEY" "952-2518-1-ND"
-			(at 115.824 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_FARNELL" "2361678"
-			(at 115.824 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_RS" "161-3702"
-			(at 115.824 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 115.824 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PCB_FOOTPRINT_REF1" "CLIP_HARWIN_S0981-46R"
-			(at 115.824 248.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "639e93a3-20e7-4541-9796-cf0a429d2550")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "SC9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Inductor")
 		(at 147.32 193.04 0)
 		(unit 1)
@@ -26515,72 +20039,6 @@
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "L9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
-		(at 116.84 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cda5533e-40f7-407d-a94c-2f5a4cb3ed93")
-		(property "Reference" "#PWR0126"
-			(at 116.84 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "faebbc31-a33c-4f22-8593-206fc9caa698")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -27053,72 +20511,6 @@
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
-		(at 134.62 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3d883ba-affc-46e1-b09f-bdaa7f9b02e6")
-		(property "Reference" "#PWR0121"
-			(at 134.62 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "6b75b0b4-bb91-44e5-bf55-4de17dd5b34a")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "#PWR0121")
 					(unit 1)
 				)
 			)

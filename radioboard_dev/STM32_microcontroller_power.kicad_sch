@@ -3269,6 +3269,16 @@
 		)
 		(uuid "27a127e6-354f-4122-a4a3-6f3171112135")
 	)
+	(wire
+		(pts
+			(xy 179.07 49.53) (xy 180.34 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32154ac2-e00f-4c10-bb98-0722217edf5f")
+	)
 	(polyline
 		(pts
 			(xy 228.6 207.01) (xy 228.6 209.55)
@@ -3664,6 +3674,16 @@
 			(type default)
 		)
 		(uuid "f486aac4-55aa-46f0-8c64-d39894f5e156")
+	)
+	(wire
+		(pts
+			(xy 179.07 52.07) (xy 179.07 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4eccec6-57f9-4f9e-91e5-a5b749819248")
 	)
 	(wire
 		(pts
@@ -5284,7 +5304,7 @@
 	)
 	(symbol
 		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
-		(at 180.34 49.53 0)
+		(at 179.07 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5292,7 +5312,7 @@
 		(dnp no)
 		(uuid "0103d9e7-2906-4997-b425-3ce7478976c4")
 		(property "Reference" "#PWR05"
-			(at 180.34 49.53 0)
+			(at 179.07 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5301,7 +5321,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 55.88 0)
+			(at 179.07 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,7 +5330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 49.53 0)
+			(at 179.07 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5319,7 +5339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 49.53 0)
+			(at 179.07 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5328,7 +5348,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 49.53 0)
+			(at 179.07 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,6 +6647,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
@@ -6968,6 +6989,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
@@ -8297,7 +8319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACS722LLCTR-05AB-T:SOIC127P600X175-8N"
+		(property "Footprint" "parts:SOIC127P600X175-8N"
 			(at 226.06 85.09 0)
 			(effects
 				(font
@@ -8774,6 +8796,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
@@ -9045,6 +9068,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"

@@ -930,15 +930,19 @@
     ],
     [
       "991445d1-ac72-4dc7-8e85-5e852498bc5d",
-      "U_STM32_microcontroller_IOs"
+      "microcontroller_IOs"
     ],
     [
       "1ca16541-0f9c-45cc-84d4-3e816fa9d744",
-      "U_STM32_microcontroller_power"
+      "microcontroller_power"
     ],
     [
       "955d1056-b41d-4116-b452-aa2752fbe45d",
-      "U_STM32_microcontroller_RF"
+      "microcontroller_RF"
+    ],
+    [
+      "53a6383e-e1db-4e03-81ab-1d0a0ef423e3",
+      "GPS"
     ]
   ],
   "text_variables": {

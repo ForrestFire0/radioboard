@@ -1291,8 +1291,8 @@
 			(color 128 255 128 1.0000)
 		)
 		(uuid "1ca16541-0f9c-45cc-84d4-3e816fa9d744")
-		(property "Sheetname" "U_STM32_microcontroller_power"
-			(at 71.12 43.18 0)
+		(property "Sheetname" "microcontroller_power"
+			(at 71.12 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1301,7 +1301,36 @@
 			)
 		)
 		(property "Sheetfile" "STM32_microcontroller_power.kicad_sch"
-			(at 71.12 45.72 0)
+			(at 71.12 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "radioboard_dev"
+				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.945 78.105)
+		(size 44.45 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "53a6383e-e1db-4e03-81ab-1d0a0ef423e3")
+		(property "Sheetname" "GPS"
+			(at 67.945 77.3934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1309,10 +1338,19 @@
 				(justify left bottom)
 			)
 		)
+		(property "Sheetfile" "radioboard_GPS.kicad_sch"
+			(at 67.945 97.7396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(instances
 			(project "radioboard_dev"
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7"
-					(page "3")
+					(page "5")
 				)
 			)
 		)
@@ -1330,8 +1368,8 @@
 			(color 128 255 128 1.0000)
 		)
 		(uuid "955d1056-b41d-4116-b452-aa2752fbe45d")
-		(property "Sheetname" "U_STM32_microcontroller_RF"
-			(at 129.54 125.73 0)
+		(property "Sheetname" "microcontroller_RF"
+			(at 129.54 127.5584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1340,12 +1378,12 @@
 			)
 		)
 		(property "Sheetfile" "STM32_microcontroller_RF.kicad_sch"
-			(at 129.54 128.27 0)
+			(at 129.54 149.1746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 			)
 		)
 		(pin "FE_CTRL2" passive
@@ -1399,8 +1437,8 @@
 			(color 128 255 128 1.0000)
 		)
 		(uuid "991445d1-ac72-4dc7-8e85-5e852498bc5d")
-		(property "Sheetname" "U_STM32_microcontroller_IOs"
-			(at 132.08 35.56 0)
+		(property "Sheetname" "microcontroller_IOs"
+			(at 132.08 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,12 +1447,12 @@
 			)
 		)
 		(property "Sheetfile" "STM32_microcontroller_IOs.kicad_sch"
-			(at 132.08 38.1 0)
+			(at 132.08 119.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 			)
 		)
 		(pin "FE_CTRL2" passive

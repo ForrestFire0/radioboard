@@ -1,4 +1,4 @@
-23710875736338459
+23712596277805349
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96802,6 +96802,13 @@ REG_SOT223-TAB
 0
 4
 4
+parts
+SAM-M10Q_UBL
+
+SAM-M10Q-00B 
+0
+20
+20
 parts
 SHIELD_17P2x17P2X3__3D-ONLY
 

@@ -6,7 +6,31 @@
     "hidden_netclasses": [],
     "hidden_nets": [
       "GND",
-      "+3.3V"
+      "VBAT",
+      "+3.3V",
+      "SDA",
+      "SCL",
+      "LPUART1_TX",
+      "LPUART1_RX",
+      "SPI1_SCK",
+      "SWCLK",
+      "SWDIO",
+      "VGPS",
+      "/microcontroller_IOs/OSC32_IN",
+      "GPSPOW",
+      "/microcontroller_IOs/OSC32_OUT",
+      "NRST",
+      "BOOT0",
+      "SPI1_NSS",
+      "CURROUT",
+      "SPI1_MISO",
+      "SPI1_MOSI",
+      "VCURR",
+      "BUT1",
+      "LED2",
+      "LED1",
+      "GPSTXD",
+      "GPSRXD"
     ],
     "high_contrast_mode": 1,
     "net_color_mode": 1,
@@ -67,7 +91,7 @@
       39,
       40
     ],
-    "visible_layers": "ffdffff_ffffffff",
+    "visible_layers": "ffdfbff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {

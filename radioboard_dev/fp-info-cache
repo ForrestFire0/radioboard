@@ -1,4 +1,4 @@
-23712596870335856
+23717758512742026
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96717,7 +96717,7 @@ IC_DRV8601DRBT
 
 0
 13
-13
+6
 parts
 IND_0402_MURATA_LQW15AN2N4C00X
 
@@ -96760,6 +96760,20 @@ MOS_SOT23-5L
 0
 5
 5
+parts
+NX2016SA_NDK
+
+NX2016SA-32M-EXS00A-CS06465 
+0
+4
+4
+parts
+OSC_ECS-TXO-25CSMV-320-DY-TR
+
+
+0
+4
+4
 parts
 OSC_NDK_NZ2520SB_4P
 
@@ -96879,3 +96893,10 @@ BGS13SN8E6327XTSA1
 0
 8
 8
+parts
+XTAL_NX2012SA_NDK
+
+NX2012SA-32.768K-STD-MUB-1 
+0
+2
+2

@@ -284,6 +284,176 @@
 				)
 			)
 		)
+		(symbol "Device:R_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ECS-TXO-25CSMV-320-DY-TR:ECS-TXO-25CSMV-320-DY-TR"
 			(pin_names
 				(offset 1.016)
@@ -2099,149 +2269,6 @@
 				)
 			)
 		)
-		(symbol "MB1389-altium-import:U_STM32_microcontroller_RF_2_Capacitor"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Capacitor, High Q type for high frequency and high power, SMD, 1.2pF, 50V, 0,05pf, 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*C0402*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "U_STM32_microcontroller_RF_2_Capacitor_1_0"
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -1.778 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 0.508) (xy -1.778 4.572)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 4.572) (xy -0.762 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -0.762 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MB1389-altium-import:U_STM32_microcontroller_RF_2_SMA-J-P-H-ST-EM1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3307,10 +3334,10 @@
 		(uuid "0211872d-e2e9-4aa1-8f4c-545882f4d7ec")
 	)
 	(junction
-		(at 185.42 213.36)
+		(at 17.78 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0bf08e8e-a620-4448-a988-7248f2aa215b")
+		(uuid "193cac5a-132b-469e-8325-ac081132e9aa")
 	)
 	(junction
 		(at 220.98 266.7)
@@ -3379,12 +3406,6 @@
 		(uuid "8395b94c-c91b-435c-88b3-543cc2798393")
 	)
 	(junction
-		(at 254 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86bfd069-d78b-4a3c-91b8-4f14c626e951")
-	)
-	(junction
 		(at 200.66 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3427,12 +3448,6 @@
 		(uuid "9c6948d7-b871-472c-9c58-89004f5f64cd")
 	)
 	(junction
-		(at 66.04 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a87fde78-19cc-4325-90ab-8172a0d4c866")
-	)
-	(junction
 		(at 154.94 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3473,12 +3488,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea2c0989-f1ff-4f01-9b49-8ca59fb2233a")
-	)
-	(junction
-		(at 111.76 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f216d76b-c102-4fd1-9b18-b1d699ca359d")
 	)
 	(junction
 		(at 101.6 134.62)
@@ -3551,16 +3560,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 213.36) (xy 185.42 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "092268a3-4ebf-40c8-9448-e9461eab42cc")
-	)
-	(wire
-		(pts
 			(xy 187.96 195.58) (xy 187.96 160.02)
 		)
 		(stroke
@@ -3568,6 +3567,16 @@
 			(type default)
 		)
 		(uuid "0957b1c8-2c0d-454b-a089-1c4b2f02753d")
+	)
+	(wire
+		(pts
+			(xy 46.99 223.52) (xy 21.59 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ababd1-34df-4f47-9359-f44f30d5a261")
 	)
 	(wire
 		(pts
@@ -3681,16 +3690,6 @@
 		)
 		(uuid "13046a3a-8aa2-4c62-ba27-62b24c3acd16")
 	)
-	(wire
-		(pts
-			(xy 269.24 43.18) (xy 269.24 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14ca53e9-a636-47fc-b9fc-def0e88fcbf8")
-	)
 	(polyline
 		(pts
 			(xy 76.2 189.23) (xy 76.2 102.87)
@@ -3704,7 +3703,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 213.36) (xy 358.14 213.36)
+			(xy 175.26 213.36) (xy 358.14 213.36)
 		)
 		(stroke
 			(width 0)
@@ -3751,16 +3750,6 @@
 			(type default)
 		)
 		(uuid "195258fe-e2ee-401b-a727-f8deb39085fa")
-	)
-	(wire
-		(pts
-			(xy 41.91 48.26) (xy 41.91 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19ab4a6e-c1ea-4c53-9606-0d0b0fb881cd")
 	)
 	(polyline
 		(pts
@@ -3884,16 +3873,6 @@
 			(type default)
 		)
 		(uuid "29c5338b-c0eb-449e-bc60-a0db9dd54cf9")
-	)
-	(wire
-		(pts
-			(xy 213.36 53.34) (xy 213.36 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a5be56e-a944-4178-b833-319959c2b07e")
 	)
 	(wire
 		(pts
@@ -4111,6 +4090,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 227.33) (xy 58.42 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4970b1bc-42b4-4d5c-8367-f4b5448f15e7")
+	)
+	(wire
+		(pts
 			(xy 279.4 264.16) (xy 279.4 266.7)
 		)
 		(stroke
@@ -4121,13 +4110,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 213.36) (xy 185.42 213.36)
+			(xy 40.64 227.33) (xy 46.99 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a08aba1-22cd-4fff-ac5f-c49c6de78a8b")
+		(uuid "4cca3ca6-eef7-4262-b414-648b3b431a9e")
 	)
 	(wire
 		(pts
@@ -4148,16 +4137,6 @@
 			(type default)
 		)
 		(uuid "4efdb920-0b82-4a38-9626-75f651a016a8")
-	)
-	(wire
-		(pts
-			(xy 200.66 142.24) (xy 200.66 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5091612b-35b5-4752-8c3c-e01ec58ebf09")
 	)
 	(wire
 		(pts
@@ -4250,16 +4229,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "5966630e-a04c-461d-9e4c-e2e7d65dafc3")
-	)
-	(wire
-		(pts
-			(xy 200.66 182.88) (xy 200.66 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ab53803-7990-403d-8548-fdf689faa30d")
 	)
 	(wire
 		(pts
@@ -4412,16 +4381,6 @@
 		)
 		(uuid "70503867-cb3c-42ac-8d9c-8e520f4faed2")
 	)
-	(wire
-		(pts
-			(xy 213.36 43.18) (xy 213.36 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7157bc09-dce2-443e-9b4d-17d7bff11cee")
-	)
 	(polyline
 		(pts
 			(xy 314.96 76.2) (xy 314.96 96.52)
@@ -4446,17 +4405,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 58.42) (xy 185.42 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76c1a8fb-b839-43a7-a96a-4b5d6ec217f0")
-	)
-	(wire
-		(pts
-			(xy 40.64 246.38) (xy 40.64 226.06)
+			(xy 40.64 246.38) (xy 40.64 227.33)
 		)
 		(stroke
 			(width 0)
@@ -4586,16 +4535,6 @@
 			(type default)
 		)
 		(uuid "8a35dd8c-6c83-4b7b-9e81-55b1ef9614ce")
-	)
-	(wire
-		(pts
-			(xy 30.48 48.26) (xy 41.91 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ad87820-57a1-4f88-ac00-efe43abfc36e")
 	)
 	(wire
 		(pts
@@ -4774,16 +4713,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 43.18) (xy 254 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9de20666-697c-4b25-bd82-6702050a8cd2")
-	)
-	(wire
-		(pts
 			(xy 157.48 160.02) (xy 162.56 160.02)
 		)
 		(stroke
@@ -4836,7 +4765,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 97.79) (xy 46.99 97.79)
+			(xy 41.91 48.26) (xy 30.48 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4883,16 +4812,6 @@
 			(type default)
 		)
 		(uuid "aef5e2dc-b357-4d32-8b10-e80234007316")
-	)
-	(wire
-		(pts
-			(xy 254 43.18) (xy 269.24 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af996514-ea9b-4b6d-948f-afad3b24f926")
 	)
 	(wire
 		(pts
@@ -4978,7 +4897,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 125.73) (xy 66.04 123.19)
+			(xy 66.04 115.57) (xy 66.04 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4995,26 +4914,6 @@
 			(type default)
 		)
 		(uuid "bb7a01f8-6740-4c70-a28d-d7c39e2338c3")
-	)
-	(wire
-		(pts
-			(xy 269.24 53.34) (xy 269.24 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc5e5ba0-3ed7-4944-b20d-916577cbac5c")
-	)
-	(wire
-		(pts
-			(xy 63.5 123.19) (xy 66.04 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc7b6169-eae9-4c53-96dc-14d7fb66388c")
 	)
 	(wire
 		(pts
@@ -5056,16 +4955,6 @@
 			(type default)
 		)
 		(uuid "c1a4d28c-58ac-4767-8cfa-fa9a86f97c2a")
-	)
-	(wire
-		(pts
-			(xy 185.42 231.14) (xy 185.42 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c305772a-6bf3-4bed-bdcd-f5662adbcd2b")
 	)
 	(wire
 		(pts
@@ -5191,23 +5080,13 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 223.52) (xy 21.59 223.52)
+			(xy 58.42 223.52) (xy 54.61 223.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d447a8b4-3e14-4632-85d1-4fdfeb9f08f5")
-	)
-	(wire
-		(pts
-			(xy 185.42 43.18) (xy 213.36 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d481bd3b-1d3d-4a42-ae4a-d3b1224edf9e")
 	)
 	(polyline
 		(pts
@@ -5441,16 +5320,6 @@
 			(type default)
 		)
 		(uuid "f09d9522-302d-4852-ac3e-ae1019dc7e71")
-	)
-	(wire
-		(pts
-			(xy 66.04 123.19) (xy 66.04 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f38dbc19-8856-436c-8b3d-228e0ad784f0")
 	)
 	(wire
 		(pts
@@ -6484,27 +6353,6 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf//Z"
 		)
 	)
-	(text_box "GJM1555C1H1R2WB01D"
-		(exclude_from_sim no)
-		(at 310.618 57.7342 0)
-		(size -26.138 3.048)
-		(stroke
-			(width -0.0001)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 255 255 255 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "280b4c1c-9aec-4424-8037-fa2c0bebaa45")
-	)
 	(text_box "R33 close to L13 to avoid stub on VLXSMPS track"
 		(exclude_from_sim no)
 		(at 25.4 35.3822 0)
@@ -7120,7 +6968,7 @@
 	)
 	(global_label "PB0_VDD_TCXO"
 		(shape input)
-		(at 63.5 222.25 0)
+		(at 55.88 207.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7130,7 +6978,7 @@
 		)
 		(uuid "3182ccf4-e41b-4fe8-8442-af180e8497ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.5761 222.25 0)
+			(at 72.9561 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7252,29 +7100,29 @@
 	)
 	(global_label "VDDRF"
 		(shape input)
-		(at 46.99 97.79 0)
+		(at 17.78 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "9b83f2f6-bae2-42f5-b165-45cb2a4b857c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.9624 97.79 0)
+			(at 8.8076 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "OSC_IN"
 		(shape input)
-		(at 22.86 223.52 0)
+		(at 58.42 223.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7284,29 +7132,7 @@
 		)
 		(uuid "aad32582-3b66-4b40-b131-a25a2e461a68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.5581 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OSC_OUT"
-		(shape input)
-		(at 40.64 226.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "adc45117-aa13-4b31-a210-d964325b45e2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.0314 226.06 0)
+			(at 68.1181 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7426,6 +7252,28 @@
 			)
 		)
 	)
+	(global_label "OSC_OUT"
+		(shape input)
+		(at 58.42 227.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fea91f2c-974d-44a1-a56c-55b533f04357")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.8114 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "FE_CTRL3"
 		(shape passive)
 		(at 215.9 88.9 180)
@@ -7461,184 +7309,6 @@
 			(justify right)
 		)
 		(uuid "d433bf56-0111-4789-9b5d-4ef5fba48ffd")
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Inductor")
-		(at 208.28 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0073eae1-02f1-4fdb-a36a-27a09ac13d77")
-		(property "Reference" "L5"
-			(at 205.74 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Inductor"
-			(at 203.2 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "parts:IND_0402_MURATA_LQW15AN_H0P5"
-			(at 208.28 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0402 inductor, 3.6nH +/-0.2nH, 900mA max, 0.04 ohm DC max, Q min = 30"
-			(at 208.28 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 205.232 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01762"
-			(at 205.232 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "3.6nH"
-			(at 208.28 140.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Released"
-			(at 205.232 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_PREFERENCE" "Recommended"
-			(at 205.232 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Inductor"
-			(at 205.232 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "MURATA"
-			(at 205.232 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "LQW15AN3N6C10"
-			(at 203.2 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGE" "L0402"
-			(at 205.232 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 205.232 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Inductors/Murata_inductor_LQW15ANseries"
-			(at 205.232 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "374d9914-8b39-42fb-a954-0b089b7f9d14")
-		)
-		(pin "1"
-			(uuid "5a2ea104-89d2-4d2e-b85d-244978b9f7be")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "L5")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
@@ -7767,6 +7437,73 @@
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 50.8 227.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "117e9ec8-c3eb-47d2-a528-6e2805a3ac7f")
+		(property "Reference" "R6"
+			(at 51.308 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 51.054 229.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 50.546 228.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 50.8 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44a2d349-02ad-425b-af1d-8d4caed2f73d")
+		)
+		(pin "2"
+			(uuid "5dc12b59-442e-48af-9d38-f39e863cbca5")
+		)
+		(instances
+			(project "radioboard_dev"
+				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7955,204 +7692,6 @@
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_1_Capacitor")
-		(at 256.54 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "151cb68c-4678-4941-a74a-42cf3c3206c1")
-		(property "Reference" "C8"
-			(at 261.366 187.706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 256.794 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "parts:C0402"
-			(at 256.54 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor, MLCC, 1.3pF, 50V, NPO, +/-0.1pF, 0402, T=0,5mm"
-			(at 256.54 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 256.794 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01772"
-			(at 256.794 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "1.3pF"
-			(at 261.366 190.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 256.794 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Capacitor"
-			(at 256.794 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CC0402BRNPO9BN1R3"
-			(at 254 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 256.794 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "C0402"
-			(at 256.794 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 256.794 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/Yageo_Capacitor_NP0_16V-to-50V"
-			(at 256.794 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "n/a"
-			(at 256.794 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "n/a"
-			(at 256.794 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 256.794 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bde3bbcd-6115-452d-be13-c6e6b5a2a782")
-		)
-		(pin "1"
-			(uuid "d278b60c-2c13-4652-9408-9675123ab65a")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8729,6 +8268,75 @@
 		)
 	)
 	(symbol
+		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Capacitor")
+		(at 210.82 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fd17385-502e-4016-8604-e265eac8ce91")
+		(property "Reference" "C16"
+			(at 205.74 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "3.6 pF"
+			(at 210.566 172.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 210.82 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/CC0402BRNPO9BN3R6/5883190?s=N4IgTCBcDaIMJwAwBZFgEICUByAFA8gJzrYDMmAbCALoC%2BQA"
+			(at 210.82 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CC0402BRNPO9BN3R6"
+			(at 210.82 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fee6ac0-fe40-41a6-8839-c611568edd52")
+		)
+		(pin "2"
+			(uuid "84dd5df9-00ac-4174-8820-129a474a8b8c")
+		)
+		(instances
+			(project "radioboard_dev"
+				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Inductor")
 		(at 243.84 175.26 0)
 		(unit 1)
@@ -8746,17 +8354,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 238.76 177.8 0)
+		(property "Value" "18nH"
+			(at 246.126 176.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "parts:IND_0402_MURATA_LQW15AN_H0P5"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 243.84 175.26 0)
 			(effects
 				(font
@@ -8765,7 +8372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/LQW15AN18NG00D/2594860"
 			(at 243.84 175.26 0)
 			(effects
 				(font
@@ -8774,140 +8381,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0402 inductor, 8.7nH +/-3%, 540mA max, 0.14 ohm DC max, Q min = 25"
+		(property "Description" "LQW15AN18NG00D"
 			(at 243.84 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 240.792 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01768"
-			(at 240.792 173.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "8.7nH"
-			(at 243.84 181.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 240.792 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Inductor"
-			(at 240.792 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "LQW15AN8N7H00"
-			(at 246.38 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "MURATA"
-			(at 240.792 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "L0402"
-			(at 240.792 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 240.792 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Inductors/Murata_inductor_LQW15ANseries"
-			(at 240.792 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "n/a"
-			(at 240.792 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "n/a"
-			(at 240.792 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 240.792 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -9255,17 +8734,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 292.1 264.16 0)
+		(property "Value" "16nH"
+			(at 300.736 267.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "parts:IND_0402_MURATA_LQW15AN_H0P5"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 297.18 261.62 0)
 			(effects
 				(font
@@ -9274,7 +8752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/LQW15AN16NG00D/2594857?s=N4IgTCBcDaIDIEUDqBGArAQQHIoGxYHEAGIkAXQF8g"
 			(at 297.18 261.62 0)
 			(effects
 				(font
@@ -9283,140 +8761,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0402 inductor, 8.7nH +/-3%, 540mA max, 0.14 ohm DC max, Q min = 25"
+		(property "Description" "LQW15AN16NG00D"
 			(at 297.18 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 294.132 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01768"
-			(at 294.132 259.842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "8.7nH"
-			(at 297.18 267.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 294.132 257.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Inductor"
-			(at 294.132 257.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "LQW15AN8N7H00"
-			(at 292.1 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "MURATA"
-			(at 294.132 257.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "L0402"
-			(at 294.132 257.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 294.132 257.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Inductors/Murata_inductor_LQW15ANseries"
-			(at 294.132 257.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "n/a"
-			(at 294.132 257.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "n/a"
-			(at 294.132 257.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 294.132 257.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -9887,215 +9237,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_1_Capacitor")
-		(at 182.88 228.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34ea85a2-ee27-422a-a664-5c6ad22ed1fe")
-		(property "Reference" "C17"
-			(at 187.706 228.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Capacitor"
-			(at 183.134 223.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "parts:C0402"
-			(at 182.88 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor, MLCC, 1pF, 50V, NPO, +/-0.1pF, 0402, T=0,5mm"
-			(at 182.88 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 183.134 223.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01600"
-			(at 183.134 223.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "1pF"
-			(at 187.706 230.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Released"
-			(at 183.134 223.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_PREFERENCE" "Recommended"
-			(at 183.134 223.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Capacitor"
-			(at 183.134 223.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 183.134 223.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CC0402BRNPO9BN1R0"
-			(at 183.134 223.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "C0402"
-			(at 183.134 223.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 183.134 223.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/Yageo_Capacitor_NP0_16V-to-50V"
-			(at 183.134 223.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_DIGIKEY" "311-3613-1-ND"
-			(at 183.134 223.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_FARNELL" "N/A"
-			(at 183.134 223.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_RS" "N/A"
-			(at 183.134 223.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a9b8dccb-36c9-4b7e-9d04-26068ab46ecf")
-		)
-		(pin "1"
-			(uuid "d02348ea-4947-4f52-a792-cb6b3e8ca42b")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
 		(at 12.7 259.08 270)
 		(unit 1)
@@ -10180,14 +9321,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 152.654 228.092 0)
+		(property "Value" "4.7pF"
+			(at 149.86 232.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
+				(justify bottom)
 			)
 		)
 		(property "Footprint" "parts:C0402"
@@ -10199,7 +9339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/cc0402brnpo9bn4r7/5195033"
 			(at 152.4 233.68 0)
 			(effects
 				(font
@@ -10208,140 +9348,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor, MLCC, 2.7pF, 50V, NPO, +/-0.1pF, 0402, T=0,5mm"
+		(property "Description" "CC0402BRNPO9BN4R7"
 			(at 152.4 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 152.654 228.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01774"
-			(at 152.654 228.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "2.7pF"
-			(at 157.226 235.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 152.654 228.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Capacitor"
-			(at 152.654 228.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CC0402BRNPO9BN2R7"
-			(at 129.54 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 152.654 228.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "C0402"
-			(at 152.654 228.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 152.654 228.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/Yageo_Capacitor_NP0_16V-to-50V"
-			(at 152.654 228.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "n/a"
-			(at 152.654 228.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "n/a"
-			(at 152.654 228.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 152.654 228.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -10355,204 +9367,6 @@
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Inductor")
-		(at 147.32 200.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ea04e63-8eb4-43c4-a3e1-20adaf97c19a")
-		(property "Reference" "L10"
-			(at 142.24 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 142.24 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "parts:IND_0402_MURATA_LQW15AN_H0P5"
-			(at 147.32 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0402 inductor, 3.3nH +-0.5nH, 900mA max, 0.04 ohm DC max, Q min = 30"
-			(at 147.32 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 144.272 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01761"
-			(at 144.272 198.882 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "3.3nH"
-			(at 157.48 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 144.272 196.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Inductor"
-			(at 144.272 196.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "LQW15AN3N3D10"
-			(at 144.78 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "MURATA"
-			(at 144.272 196.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "L0402"
-			(at 144.272 196.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 144.272 196.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Inductors/Murata_inductor_LQW15ANseries"
-			(at 144.272 196.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "n/a"
-			(at 144.272 196.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "n/a"
-			(at 144.272 196.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 144.272 196.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "78a50a36-be3e-4c5a-ae0a-db2541f9fa61")
-		)
-		(pin "1"
-			(uuid "d9a565ab-c1ea-4db6-9689-a579bd2460bd")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "L10")
 					(unit 1)
 				)
 			)
@@ -10626,402 +9440,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_1_Capacitor")
-		(at 154.94 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f8c1b0e-93cd-4e27-9d31-1307ef6ba754")
-		(property "Reference" "C25"
-			(at 159.766 177.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 155.194 172.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "parts:C0402"
-			(at 154.94 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor, MLCC, 33pF, 50V, NPO, +/-2%, 0402, T=0,5mm"
-			(at 154.94 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 155.194 172.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01784"
-			(at 155.194 172.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "33pF"
-			(at 159.766 180.086 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 155.194 172.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Capacitor"
-			(at 155.194 172.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CC0402GRNPO9BN330"
-			(at 160.02 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 155.194 172.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "C0402"
-			(at 155.194 172.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 155.194 172.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/Yageo_Capacitor_NP0_16V-to-50V"
-			(at 155.194 172.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "n/a"
-			(at 155.194 172.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "n/a"
-			(at 155.194 172.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 155.194 172.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66ecb44c-8d75-42e8-822f-764d502a8c1e")
-		)
-		(pin "2"
-			(uuid "b83bb369-2582-4bfc-8b5a-31c92577a443")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_2_Capacitor")
-		(at 213.36 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41a68073-507f-43dd-8d4d-2444c2395c35")
-		(property "Reference" "C16"
-			(at 205.74 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 207.772 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "parts:C0402"
-			(at 213.36 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor, MLCC, 2.7pF, 50V, NPO, +/-0.1pF, 0402, T=0,5mm"
-			(at 213.36 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 207.772 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01774"
-			(at 207.772 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "2.7pF"
-			(at 210.566 172.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 207.772 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Capacitor"
-			(at 207.772 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CC0402BRNPO9BN2R7"
-			(at 200.66 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 207.772 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "C0402"
-			(at 207.772 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 207.772 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/Yageo_Capacitor_NP0_16V-to-50V"
-			(at 207.772 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "n/a"
-			(at 207.772 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "n/a"
-			(at 207.772 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 207.772 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "22da9e1f-b198-42a5-b82e-52f414425541")
-		)
-		(pin "1"
-			(uuid "7b7a7c0c-52b6-40b4-9e6f-7945eb743996")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MB1389-altium-import:VDDPA_BAR")
 		(at 91.44 128.27 180)
 		(unit 1)
@@ -11081,6 +9499,75 @@
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Inductor")
+		(at 147.32 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4757ee8d-4b5e-4a2c-8c61-9a0743a017ee")
+		(property "Reference" "L10"
+			(at 144.78 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0R"
+			(at 150.114 204.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 147.32 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/rc0402jr-070rl/726406"
+			(at 147.32 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RC0402JR-070RL SHUNT"
+			(at 147.32 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48e0ea92-5728-4583-8a6d-cdf6dce10c14")
+		)
+		(pin "1"
+			(uuid "01c85b9d-aa12-4b0c-8e4a-7a5f1c2dddff")
+		)
+		(instances
+			(project "radioboard_dev"
+				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
+					(reference "L10")
 					(unit 1)
 				)
 			)
@@ -11285,478 +9772,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_1_Capacitor")
-		(at 327.66 271.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4edc292e-9d5c-49a7-aebe-fb4ac81549c0")
-		(property "Reference" "C6"
-			(at 332.486 271.526 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 327.914 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "parts:C0402"
-			(at 327.66 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 327.66 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor, MLCC, 3.3pF, 50V, NPO, +/-0.1pF, 0402, T=0,5mm"
-			(at 327.66 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 327.914 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01775"
-			(at 327.914 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "3.3pF"
-			(at 332.486 274.066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 327.914 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Capacitor"
-			(at 327.914 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CC0402BRNPO9BN3R3"
-			(at 325.12 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 327.914 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "C0402"
-			(at 327.914 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 327.914 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/Yageo_Capacitor_NP0_16V-to-50V"
-			(at 327.914 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "n/a"
-			(at 327.914 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "n/a"
-			(at 327.914 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 327.914 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "83522cc7-8c37-4f58-9a30-5522893f3b85")
-		)
-		(pin "1"
-			(uuid "54366d17-714b-48d0-85c0-e649949e2d14")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_1_Capacitor")
-		(at 266.7 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f0e5c95-d3b5-4f3d-b55c-d72c7e349d10")
-		(property "Reference" "C93"
-			(at 271.526 50.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Capacitor"
-			(at 266.954 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "parts:C0402"
-			(at 266.7 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor, MLCC, 3.3pF, 50V, NPO, +/-0.1pF, 0402, T=0,5mm"
-			(at 266.7 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 266.954 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01775"
-			(at 266.954 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "3.3pF"
-			(at 271.526 53.086 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Released"
-			(at 266.954 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_PREFERENCE" "Recommended"
-			(at 266.954 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Capacitor"
-			(at 266.954 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 266.954 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CC0402BRNPO9BN3R3"
-			(at 271.78 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGE" "C0402"
-			(at 266.954 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 266.954 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/Yageo_Capacitor_NP0_16V-to-50V"
-			(at 266.954 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_DIGIKEY" "311-1621-1-ND"
-			(at 266.954 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_FARNELL" "N/A"
-			(at 266.954 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_RS" "N/A"
-			(at 266.954 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6a2fa9b7-598d-41eb-ae69-7857e000046f")
-		)
-		(pin "1"
-			(uuid "ad0c22b4-2971-4002-a95d-4e8cd7580c67")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "C93")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
-		(at 269.24 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "510a6b63-8024-44b7-93ab-402313815430")
-		(property "Reference" "#PWR0164"
-			(at 269.24 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 269.24 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "277a4c98-403e-461e-8351-543bf1bfe94b")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "#PWR0164")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ECS-TXO-25CSMV-320-DY-TR:ECS-TXO-25CSMV-320-DY-TR")
 		(at 43.18 156.21 0)
 		(unit 1)
@@ -11832,16 +9847,16 @@
 		)
 	)
 	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Inductor")
-		(at 243.84 134.62 0)
+		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Capacitor")
+		(at 231.14 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "531a9490-1afc-45ca-aaae-79b7d7737359")
-		(property "Reference" "L3"
-			(at 241.3 137.16 0)
+		(uuid "54e45733-cdea-4eba-8e3d-29769d5c4a45")
+		(property "Reference" "C13"
+			(at 231.14 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11849,186 +9864,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Inductor"
-			(at 238.76 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "parts:IND_0402_MURATA_LQW15AN_H0P5"
-			(at 243.84 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0402 inductor, 8.7nH +/-3%, 540mA max, 0.14 ohm DC max, Q min = 25"
-			(at 243.84 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 240.792 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01768"
-			(at 240.792 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "8.7nH"
-			(at 243.84 140.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Released"
-			(at 240.792 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_PREFERENCE" "Recommended"
-			(at 240.792 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Inductor"
-			(at 240.792 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "MURATA"
-			(at 240.792 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "LQW15AN8N7H00"
-			(at 246.38 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGE" "L0402"
-			(at 240.792 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 240.792 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Inductors/Murata_inductor_LQW15ANseries"
-			(at 240.792 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca568566-859a-4b72-b0fa-9b713b39f58e")
-		)
-		(pin "2"
-			(uuid "84861b56-f7d0-421a-bc65-e7f2aa6a738c")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_1_Capacitor")
-		(at 220.98 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56171323-b3be-4334-9dbd-70eb74dc0791")
-		(property "Reference" "C14"
-			(at 225.806 187.706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 221.234 182.372 0)
+		(property "Value" "Capacitor"
+			(at 230.886 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12038,7 +9875,7 @@
 			)
 		)
 		(property "Footprint" "parts:C0402"
-			(at 220.98 187.96 0)
+			(at 231.14 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12047,7 +9884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 187.96 0)
+			(at 231.14 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12055,8 +9892,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor, MLCC, 3.3pF, 50V, NPO, +/-0.1pF, 0402, T=0,5mm"
-			(at 220.98 187.96 0)
+		(property "Description" "Capacitor, MLCC, 68pF, 50V, NPO, +/-5%, 0402, T=0,5mm"
+			(at 231.14 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12065,7 +9902,7 @@
 			)
 		)
 		(property "REVISION" ""
-			(at 221.234 182.372 0)
+			(at 228.092 175.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12074,8 +9911,8 @@
 				(hide yes)
 			)
 		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01775"
-			(at 221.234 182.372 0)
+		(property "INTERNAL_PART_NUMBER" "MCD-01604"
+			(at 228.092 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12084,8 +9921,8 @@
 				(hide yes)
 			)
 		)
-		(property "ALTIUM_VALUE" "3.3pF"
-			(at 225.806 190.246 0)
+		(property "ALTIUM_VALUE" "68pF"
+			(at 230.886 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12093,8 +9930,18 @@
 				(justify left bottom)
 			)
 		)
-		(property "STATUS" "Checked"
-			(at 221.234 182.372 0)
+		(property "STATUS" "Released"
+			(at 228.092 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_PREFERENCE" "Recommended"
+			(at 228.092 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12104,26 +9951,17 @@
 			)
 		)
 		(property "PART_TYPE" "Capacitor"
-			(at 221.234 182.372 0)
+			(at 228.092 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CC0402BRNPO9BN3R3"
-			(at 218.44 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 221.234 182.372 0)
+			(at 228.092 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12132,8 +9970,17 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "CC0402JRNPO9BN680"
+			(at 223.52 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
 		(property "PACKAGE" "C0402"
-			(at 221.234 182.372 0)
+			(at 228.092 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12143,7 +9990,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 221.234 182.372 0)
+			(at 228.092 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12153,7 +10000,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/Yageo_Capacitor_NP0_16V-to-50V"
-			(at 221.234 182.372 0)
+			(at 228.092 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12162,8 +10009,8 @@
 				(hide yes)
 			)
 		)
-		(property "ECCN_US" "n/a"
-			(at 221.234 182.372 0)
+		(property "ORDER_CODE_DIGIKEY" "311-1340-1-ND"
+			(at 228.092 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12172,8 +10019,8 @@
 				(hide yes)
 			)
 		)
-		(property "ECCN_EU" "n/a"
-			(at 221.234 182.372 0)
+		(property "ORDER_CODE_FARNELL" "3019214"
+			(at 228.092 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12182,8 +10029,8 @@
 				(hide yes)
 			)
 		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 221.234 182.372 0)
+		(property "ORDER_CODE_RS" "N/A"
+			(at 228.092 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12191,17 +10038,17 @@
 				(justify left bottom)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "8f569a6d-4a8f-45c1-8b70-527a2a001a63")
 		)
 		(pin "2"
-			(uuid "d77ba7a8-fdf4-43b2-84af-d1a332142456")
+			(uuid "94c955be-50ce-4197-ae12-fac5dd716394")
+		)
+		(pin "1"
+			(uuid "8aefd0fe-394f-4106-9bcc-3cf06378424c")
 		)
 		(instances
-			(project ""
+			(project "radioboard_dev"
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -12209,15 +10056,15 @@
 	)
 	(symbol
 		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_1_Capacitor")
-		(at 198.12 147.32 0)
+		(at 327.66 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "579cdab1-8a83-4c4b-aa50-3cd8a8c3d585")
-		(property "Reference" "C22"
-			(at 202.946 147.066 0)
+		(uuid "55b78fc0-827c-4831-aaf9-5d13095299ea")
+		(property "Reference" "C6"
+			(at 332.486 271.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12225,18 +10072,17 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 198.374 141.732 0)
+		(property "Value" "6.8pF"
+			(at 327.914 266.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "parts:C0402"
-			(at 198.12 147.32 0)
+			(at 327.66 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12244,8 +10090,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 198.12 147.32 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/cc0402brnpo9bn6r8/5195035"
+			(at 327.66 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12253,193 +10099,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor, High Q type for high frequency and high power, SMD, 1.2pF, 50V, 0,05pf, 0402"
-			(at 198.12 147.32 0)
+		(property "Description" "CC0402BRNPO9BN6R8"
+			(at 327.66 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "REVISION" ""
-			(at 198.374 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-02065"
-			(at 198.374 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "1.2pF"
-			(at 202.946 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "BMS_PART_NUMBER" "N/A"
-			(at 198.374 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 198.374 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_PREFERENCE" "Recommended"
-			(at 198.374 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Capacitor"
-			(at 198.374 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "MURATA"
-			(at 198.374 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "GJM1555C1H1R2WB01D"
-			(at 190.5 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTERNATE_MANUFACTURER" "N/A"
-			(at 198.374 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTERNATE_MANUFACTURER_PART_NUMBER" "N/A"
-			(at 198.374 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "C0402"
-			(at 198.374 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 198.374 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/MURATA_Chip_Monolithic_Ceramic_Capacitors"
-			(at 198.374 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_DIGIKEY" "490-11195-2-ND"
-			(at 198.374 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_FARNELL" "2781428"
-			(at 198.374 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_RS" "846-7246"
-			(at 198.374 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ab4275f7-0154-4c09-a9e6-d95531630f91")
 		)
 		(pin "1"
-			(uuid "675caebb-45d6-4fd0-95c7-d7f4d35cf8de")
+			(uuid "5559eca3-05b5-447e-82ce-643f8d068266")
+		)
+		(pin "2"
+			(uuid "53da2736-a7d8-44f9-bab9-38804ac32587")
 		)
 		(instances
-			(project ""
+			(project "radioboard_dev"
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "C22")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -12513,7 +10191,7 @@
 	)
 	(symbol
 		(lib_id "MB1389-altium-import:VDDRF_BAR")
-		(at 46.99 97.79 180)
+		(at 17.78 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12521,7 +10199,7 @@
 		(dnp no)
 		(uuid "5bcc4f7d-1090-4553-8650-3320cac121b3")
 		(property "Reference" "#PWR034"
-			(at 46.99 97.79 0)
+			(at 17.78 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12530,7 +10208,7 @@
 			)
 		)
 		(property "Value" "VDDRF"
-			(at 46.99 93.98 0)
+			(at 17.78 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12538,7 +10216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 97.79 0)
+			(at 17.78 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12547,7 +10225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 97.79 0)
+			(at 17.78 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12556,7 +10234,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 97.79 0)
+			(at 17.78 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12849,17 +10527,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 160.02 165.1 0)
+		(property "Value" "68nH"
+			(at 167.894 167.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "parts:IND_0402_MURATA_LQW15AN2N4C00X"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 165.1 162.56 0)
 			(effects
 				(font
@@ -12868,7 +10545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/lqw15an68ng00d/2594946"
 			(at 165.1 162.56 0)
 			(effects
 				(font
@@ -12877,140 +10554,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, 47nH, +-5%, 210mA, 1.08ohm DC max, 0402"
+		(property "Description" "LQW15AN68NG00D"
 			(at 165.1 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 162.052 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01609"
-			(at 162.052 160.782 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "47nH"
-			(at 175.26 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Footprint available"
-			(at 162.052 158.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Inductor"
-			(at 162.052 158.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "LQW15AN47NJ00#"
-			(at 165.1 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "MURATA"
-			(at 162.052 158.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "L0402"
-			(at 162.052 158.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 162.052 158.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Inductors/Murata_inductor_LQW15ANseries/"
-			(at 162.052 158.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 162.052 158.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "n/a"
-			(at 162.052 158.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "n/a"
-			(at 162.052 158.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -13361,16 +10910,16 @@
 		)
 	)
 	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Resistor")
-		(at 55.88 120.65 0)
+		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_1_Capacitor")
+		(at 256.54 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6a6a2e05-a390-435c-a397-e77a817bc07b")
-		(property "Reference" "R41"
-			(at 55.626 122.428 0)
+		(uuid "6bb0beb9-ab7c-4db0-b59a-a997e70f37df")
+		(property "Reference" "C8"
+			(at 261.366 187.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13378,8 +10927,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 60.96 123.19 0)
+		(property "Value" "Capacitor"
+			(at 256.794 182.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13388,8 +10937,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "parts:R0402"
-			(at 55.88 120.65 0)
+		(property "Footprint" "parts:C0402"
+			(at 256.54 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13398,7 +10947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 120.65 0)
+			(at 256.54 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13406,8 +10955,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor,10K,0402,1%,1/16W"
-			(at 55.88 120.65 0)
+		(property "Description" "Capacitor, MLCC, 5.6pF, 50V, NPO, +/- 0.1pF, 0402, T=0,5mm"
+			(at 256.54 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13415,8 +10964,8 @@
 				(hide yes)
 			)
 		)
-		(property "INTERNAL_PART_NUMBER" "MCD-00053"
-			(at 52.832 120.65 0)
+		(property "REVISION" ""
+			(at 256.794 182.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13425,8 +10974,18 @@
 				(hide yes)
 			)
 		)
-		(property "ALTIUM_VALUE" "10K"
-			(at 55.626 126.492 0)
+		(property "INTERNAL_PART_NUMBER" "MCD-01374"
+			(at 256.794 182.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "5.6pF"
+			(at 261.366 190.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13435,7 +10994,7 @@
 			)
 		)
 		(property "STATUS" "Released"
-			(at 52.832 118.11 0)
+			(at 256.794 182.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13444,8 +11003,8 @@
 				(hide yes)
 			)
 		)
-		(property "PART_TYPE" "Resistor"
-			(at 52.832 118.11 0)
+		(property "PART_PREFERENCE" "Recommended"
+			(at 256.794 182.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13454,8 +11013,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "RC0402FR-0710KL"
-			(at 52.832 118.11 0)
+		(property "PART_TYPE" "Capacitor"
+			(at 256.794 182.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13465,7 +11024,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 52.832 118.11 0)
+			(at 256.794 182.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13474,8 +11033,17 @@
 				(hide yes)
 			)
 		)
-		(property "PACKAGE" "R0402"
-			(at 52.832 118.11 0)
+		(property "MANUFACTURER_PART_NUMBER" "CC0402BRNPO9BN5R6"
+			(at 254 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PACKAGE" "C0402"
+			(at 256.794 182.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13485,7 +11053,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 52.832 118.11 0)
+			(at 256.794 182.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13494,8 +11062,8 @@
 				(hide yes)
 			)
 		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Resistors/Yageo_Resistor_RC0402-series"
-			(at 52.832 118.11 0)
+		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/Yageo_Capacitor_NP0_16V-to-50V"
+			(at 256.794 182.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13504,8 +11072,8 @@
 				(hide yes)
 			)
 		)
-		(property "ECCN_US" "EAR99"
-			(at 52.832 118.11 0)
+		(property "ORDER_CODE_DIGIKEY" "311-1625-1-ND"
+			(at 256.794 182.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13514,8 +11082,8 @@
 				(hide yes)
 			)
 		)
-		(property "ECCN_EU" "NEC"
-			(at 52.832 118.11 0)
+		(property "ORDER_CODE_FARNELL" "N/A"
+			(at 256.794 182.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13524,18 +11092,8 @@
 				(hide yes)
 			)
 		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 52.832 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "BMS_PART_NUMBER" "9131590"
-			(at 52.832 118.11 0)
+		(property "ORDER_CODE_RS" "N/A"
+			(at 256.794 182.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13545,15 +11103,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9fd60120-7ee4-4dc2-8303-3185e34e3b1a")
+			(uuid "912765ea-682d-47a3-b507-b91dc7ce5a93")
 		)
 		(pin "1"
-			(uuid "25706349-a94d-420e-b6ff-c6c143e79b74")
+			(uuid "0bbf4b8c-82e7-4ef8-a73c-f28a42d16cf2")
 		)
 		(instances
-			(project ""
+			(project "radioboard_dev"
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "R41")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -13577,14 +11135,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Inductor"
-			(at 153.67 212.852 0)
+		(property "Value" "33nH"
+			(at 157.226 219.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "parts:IND_0402_MURATA_LQW15AN_H0P5"
@@ -13596,7 +11153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/LQW15AN33NG00D/2594897?s=N4IgTCBcDaIDIEUDqBGArAQQHIGYdYHEAGIkAXQF8g"
 			(at 152.4 226.06 0)
 			(effects
 				(font
@@ -13605,141 +11162,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0402 inductor, 11nH +-2%, 500mA max, 0.14 ohm DC max, Q min = 30"
+		(property "Description" "LQW15AN33NG00"
 			(at 152.4 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 153.67 212.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01921"
-			(at 153.67 212.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "STATUS" "Footprint available"
-			(at 153.67 212.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Inductor"
-			(at 153.67 212.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "LQW15AN11NG00"
-			(at 154.94 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "MURATA"
-			(at 153.67 212.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "L0402"
-			(at 153.67 212.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 153.67 212.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Inductors/Murata_inductor_LQW15ANseries"
-			(at 153.67 212.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "n/a"
-			(at 153.67 212.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "n/a"
-			(at 153.67 212.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 153.67 212.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "11nH"
-			(at 154.94 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -13759,7 +11188,7 @@
 	)
 	(symbol
 		(lib_id "MB1389-altium-import:VDDRF_BAR")
-		(at 254 43.18 180)
+		(at 238.76 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13767,7 +11196,7 @@
 		(dnp no)
 		(uuid "6f960f82-3c47-4003-9834-d7ca9938d244")
 		(property "Reference" "#PWR0176"
-			(at 254 43.18 0)
+			(at 238.76 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13776,7 +11205,7 @@
 			)
 		)
 		(property "Value" "VDDRF"
-			(at 254 39.37 0)
+			(at 238.76 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13784,7 +11213,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 43.18 0)
+			(at 238.76 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13793,7 +11222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 43.18 0)
+			(at 238.76 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13802,7 +11231,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 254 43.18 0)
+			(at 238.76 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13817,204 +11246,6 @@
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "#PWR0176")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_2_Capacitor")
-		(at 233.68 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "746e685b-c3fd-43de-abbc-1a3e53e491ac")
-		(property "Reference" "C13"
-			(at 230.886 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 228.092 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "parts:C0402"
-			(at 233.68 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor, MLCC, 33pF, 50V, NPO, +/-2%, 0402, T=0,5mm"
-			(at 233.68 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 228.092 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01784"
-			(at 228.092 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "33pF"
-			(at 230.886 182.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 228.092 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Capacitor"
-			(at 228.092 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CC0402GRNPO9BN330"
-			(at 223.52 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 228.092 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "C0402"
-			(at 228.092 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 228.092 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/Yageo_Capacitor_NP0_16V-to-50V"
-			(at 228.092 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "n/a"
-			(at 228.092 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "n/a"
-			(at 228.092 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 228.092 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6dc82bb8-18a5-4724-81da-fa42af4f85b8")
-		)
-		(pin "1"
-			(uuid "96879e64-a06d-44b2-a7cd-8cf748f55a20")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -14104,17 +11335,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Inductor"
-			(at 160.02 160.02 0)
+		(property "Value" "56nH"
+			(at 168.148 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "parts:IND_0402_MURATA_LQW15AN_H0P5"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 165.1 157.48 0)
 			(effects
 				(font
@@ -14123,7 +11353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/lqw15an56ng00d/2594932"
 			(at 165.1 157.48 0)
 			(effects
 				(font
@@ -14132,180 +11362,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, 33nH +/-2%, 260mA max , 0.63 ohm DC max, 0402, Q min = 25."
+		(property "Description" "LQW15AN56NG00D"
 			(at 165.1 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 162.052 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-02069"
-			(at 162.052 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "33nH"
-			(at 175.26 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "BMS_PART_NUMBER" "N/A"
-			(at 162.052 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "STATUS" "Released"
-			(at 162.052 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_PREFERENCE" "Recommended"
-			(at 162.052 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Inductor"
-			(at 162.052 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "MURATA"
-			(at 162.052 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "LQW15AN33NG00"
-			(at 165.1 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTERNATE_MANUFACTURER" "N/A"
-			(at 162.052 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTERNATE_MANUFACTURER_PART_NUMBER" "N/A"
-			(at 162.052 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "L0402"
-			(at 162.052 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 162.052 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Inductors/Murata_inductor_LQW15ANseries"
-			(at 162.052 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_DIGIKEY" "490-6804-1-ND"
-			(at 162.052 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_FARNELL" "1762626"
-			(at 162.052 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_RS" "169-2777"
-			(at 162.052 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -14596,14 +11658,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "6.8pF"
 			(at 277.114 266.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "parts:C0402"
@@ -14615,7 +11676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/cc0402brnpo9bn6r8/5195035"
 			(at 276.86 271.78 0)
 			(effects
 				(font
@@ -14624,140 +11685,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor, MLCC, 3.3pF, 50V, NPO, +/-0.1pF, 0402, T=0,5mm"
+		(property "Description" "CC0402BRNPO9BN6R8"
 			(at 276.86 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 277.114 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01775"
-			(at 277.114 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "3.3pF"
-			(at 281.686 274.066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 277.114 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Capacitor"
-			(at 277.114 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CC0402BRNPO9BN3R3"
-			(at 274.32 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 277.114 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "C0402"
-			(at 277.114 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 277.114 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/Yageo_Capacitor_NP0_16V-to-50V"
-			(at 277.114 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "n/a"
-			(at 277.114 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "n/a"
-			(at 277.114 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 277.114 266.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -14771,72 +11704,6 @@
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
-		(at 185.42 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b1137ec-3204-4921-a1e9-a6d70316cf34")
-		(property "Reference" "#PWR0130"
-			(at 185.42 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "f23130a6-816f-4aeb-95ed-d9cb045549f3")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -15759,72 +12626,6 @@
 	)
 	(symbol
 		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
-		(at 200.66 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87fc5aca-ab8a-40bc-8d5f-e7c1b4bfa229")
-		(property "Reference" "#PWR0144"
-			(at 200.66 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 200.66 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "8297595d-ce6d-4481-9f51-b5192f131ac7")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "#PWR0144")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
 		(at 55.88 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15957,7 +12758,7 @@
 	)
 	(symbol
 		(lib_id "MB1389-altium-import:PB0_VDD_TCXO_BAR")
-		(at 63.5 222.25 270)
+		(at 55.88 207.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15965,7 +12766,7 @@
 		(dnp no)
 		(uuid "8cd3d2c3-138c-4758-8ab5-e577228a0fdd")
 		(property "Reference" "#PWR0151"
-			(at 63.5 222.25 0)
+			(at 55.88 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15974,7 +12775,7 @@
 			)
 		)
 		(property "Value" "PB0_VDD_TCXO"
-			(at 59.69 222.25 0)
+			(at 51.562 204.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15982,7 +12783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 222.25 0)
+			(at 55.88 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15991,7 +12792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 222.25 0)
+			(at 55.88 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16000,7 +12801,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 222.25 0)
+			(at 55.88 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16092,9 +12893,9 @@
 		(at 12.7 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8fca7ffe-2178-4e6a-8e13-d97418afbe4c")
 		(property "Reference" "XTAL1"
 			(at 25.146 239.776 0)
@@ -16164,80 +12965,13 @@
 		)
 	)
 	(symbol
-		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
-		(at 119.38 134.62 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ffe2b96-736b-4780-aa41-910b7ae7ca1f")
-		(property "Reference" "#PWR0139"
-			(at 119.38 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "84c9c1ac-4940-44b3-b8cd-33b0b8aba4dd")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "#PWR0139")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Capacitor")
 		(at 15.24 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9247a24a-a869-4e35-a6be-4752398dfca7")
 		(property "Reference" "C30"
 			(at 17.78 223.52 0)
@@ -16430,6 +13164,75 @@
 		)
 	)
 	(symbol
+		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_1_Inductor")
+		(at 208.28 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9830d201-29e9-4593-be2e-28f099790a37")
+		(property "Reference" "L6"
+			(at 211.582 175.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "8.2nH"
+			(at 211.074 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 208.28 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/lqw15an8n2g00d/2594961"
+			(at 208.28 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LQW15AN8N2G00D"
+			(at 208.28 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d660015-5980-407b-8440-756e0ca15b1a")
+		)
+		(pin "2"
+			(uuid "4ec0cf81-c6f6-48d7-859c-372016c57709")
+		)
+		(instances
+			(project "radioboard_dev"
+				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
+					(reference "L6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
 		(at 114.3 119.38 0)
 		(unit 1)
@@ -16490,6 +13293,143 @@
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_1_Inductor")
+		(at 208.28 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a794c79-3d1a-494f-b32b-fc93bf01bebd")
+		(property "Reference" "L5"
+			(at 212.344 134.874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "6.8nH"
+			(at 212.09 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 208.28 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/LQW15AN6N8G00D/2594949?s=N4IgTCBcDaIDIEUDqBGArAQQHIDYsA4BxABmJAF0BfIA"
+			(at 208.28 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LQW15AN6N8G00D"
+			(at 208.28 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60b65945-b89b-490e-8355-82886c24dbe9")
+		)
+		(pin "2"
+			(uuid "b784297e-a412-4f89-aca9-7e41592c11cb")
+		)
+		(instances
+			(project "radioboard_dev"
+				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
+					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 50.8 223.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "9dbe6c12-ed5a-4903-a6e3-44dfd31a9c35")
+		(property "Reference" "R5"
+			(at 50.8 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 50.8 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 51.054 222.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 50.8 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c55c5b66-a8bb-4866-981d-3f6431601713")
+		)
+		(pin "2"
+			(uuid "c3f2e9f4-733c-4daa-b967-30dbc3fcb997")
+		)
+		(instances
+			(project ""
+				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -17089,16 +14029,16 @@
 		)
 	)
 	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_1_Capacitor")
-		(at 256.54 147.32 0)
+		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Capacitor")
+		(at 154.94 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a9e4a1d2-f88d-4aa5-8b2c-aaec2279bee4")
-		(property "Reference" "C7"
-			(at 261.366 147.066 0)
+		(uuid "a68ff9a0-4b25-4fa4-892d-ec284e15a1a2")
+		(property "Reference" "C24"
+			(at 155.194 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17106,27 +14046,17 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 256.794 141.732 0)
+		(property "Value" "68pF"
+			(at 162.306 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "parts:C0402"
-			(at 256.54 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 147.32 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 154.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17134,8 +14064,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor, High Q type for high frequency and high power, SMD, 1.2pF, 50V, 0,05pf, 0402"
-			(at 256.54 147.32 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/CC0402JRNPO9BN680/2103078?s=N4IgTCBcDaIMJwAwBZFgFICUByAFA8gJwBC2AbAByIgC6AvkA"
+			(at 154.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17143,382 +14073,25 @@
 				(hide yes)
 			)
 		)
-		(property "REVISION" ""
-			(at 256.794 141.732 0)
+		(property "Description" "CC0402JRNPO9BN680"
+			(at 154.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-02065"
-			(at 256.794 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "1.2pF"
-			(at 261.366 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "BMS_PART_NUMBER" "N/A"
-			(at 256.794 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 256.794 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_PREFERENCE" "Recommended"
-			(at 256.794 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Capacitor"
-			(at 256.794 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "MURATA"
-			(at 256.794 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "GJM1555C1H1R2WB01D"
-			(at 248.92 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTERNATE_MANUFACTURER" "N/A"
-			(at 256.794 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTERNATE_MANUFACTURER_PART_NUMBER" "N/A"
-			(at 256.794 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "C0402"
-			(at 256.794 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 256.794 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/MURATA_Chip_Monolithic_Ceramic_Capacitors"
-			(at 256.794 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_DIGIKEY" "490-11195-2-ND"
-			(at 256.794 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_FARNELL" "2781428"
-			(at 256.794 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_RS" "846-7246"
-			(at 256.794 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d68772d-6efd-4f3c-9774-2988ab7b186f")
-		)
-		(pin "2"
-			(uuid "cf863fb9-3bf5-45b8-973a-e54d630fe8ba")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Inductor")
-		(at 208.28 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aa573588-da36-4de0-a078-60d870b158e4")
-		(property "Reference" "L6"
-			(at 205.74 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Inductor"
-			(at 203.2 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "parts:IND_0402_MURATA_LQW15AN_H0P5"
-			(at 208.28 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0402 inductor, 3nH +-0.1nH, 750mA max, 0.07 ohm DC max, Q min = 20"
-			(at 208.28 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 205.232 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01922"
-			(at 205.232 173.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "3nH"
-			(at 210.82 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Footprint available"
-			(at 205.232 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Inductor"
-			(at 205.232 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "LQW15AN3N0B00"
-			(at 203.2 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "MURATA"
-			(at 205.232 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "L0402"
-			(at 205.232 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 205.232 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Inductors/Murata_inductor_LQW15ANseries"
-			(at 205.232 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "n/a"
-			(at 205.232 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "n/a"
-			(at 205.232 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 205.232 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "00037593-05c7-46ce-a82b-e59243dd7753")
+			(uuid "df49ab9f-f846-460f-a940-73c9c93b7589")
 		)
 		(pin "1"
-			(uuid "6c6cbae3-62b7-4791-8a07-7aa35d6371bd")
+			(uuid "4396614c-e9b0-41df-99f1-78dc1d120919")
 		)
 		(instances
-			(project ""
+			(project "radioboard_dev"
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "L6")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -17594,9 +14167,9 @@
 		(at 15.24 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b0eac71e-8473-4293-8ab3-356cb6c688ef")
 		(property "Reference" "C38"
 			(at 14.986 256.794 0)
@@ -17790,15 +14363,15 @@
 	)
 	(symbol
 		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_1_Capacitor")
-		(at 198.12 187.96 0)
+		(at 256.54 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b1d437ed-5266-4933-8dda-6aa633610111")
-		(property "Reference" "C21"
-			(at 202.946 187.706 0)
+		(uuid "b2b01d70-eaf1-4bc2-92c1-e45af07e7508")
+		(property "Reference" "C7"
+			(at 261.366 147.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17806,8 +14379,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 198.374 182.372 0)
+		(property "Value" "Capacitor"
+			(at 256.794 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17817,7 +14390,7 @@
 			)
 		)
 		(property "Footprint" "parts:C0402"
-			(at 198.12 187.96 0)
+			(at 256.54 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17826,7 +14399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 187.96 0)
+			(at 256.54 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17835,7 +14408,7 @@
 			)
 		)
 		(property "Description" "Capacitor, MLCC, 5.6pF, 50V, NPO, +/- 0.1pF, 0402, T=0,5mm"
-			(at 198.12 187.96 0)
+			(at 256.54 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17844,7 +14417,7 @@
 			)
 		)
 		(property "REVISION" ""
-			(at 198.374 182.372 0)
+			(at 256.794 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17854,7 +14427,7 @@
 			)
 		)
 		(property "INTERNAL_PART_NUMBER" "MCD-01374"
-			(at 198.374 182.372 0)
+			(at 256.794 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17864,7 +14437,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "5.6pF"
-			(at 202.946 190.246 0)
+			(at 261.366 149.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17873,7 +14446,17 @@
 			)
 		)
 		(property "STATUS" "Released"
-			(at 198.374 182.372 0)
+			(at 256.794 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_PREFERENCE" "Recommended"
+			(at 256.794 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17883,7 +14466,17 @@
 			)
 		)
 		(property "PART_TYPE" "Capacitor"
-			(at 198.374 182.372 0)
+			(at 256.794 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 256.794 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17893,26 +14486,16 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "CC0402BRNPO9BN5R6"
-			(at 187.96 193.04 0)
+			(at 254 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 198.374 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "PACKAGE" "C0402"
-			(at 198.374 182.372 0)
+			(at 256.794 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17922,7 +14505,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 198.374 182.372 0)
+			(at 256.794 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17932,7 +14515,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/Yageo_Capacitor_NP0_16V-to-50V"
-			(at 198.374 182.372 0)
+			(at 256.794 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17941,8 +14524,8 @@
 				(hide yes)
 			)
 		)
-		(property "ECCN_US" "N/A"
-			(at 198.374 182.372 0)
+		(property "ORDER_CODE_DIGIKEY" "311-1625-1-ND"
+			(at 256.794 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17951,8 +14534,8 @@
 				(hide yes)
 			)
 		)
-		(property "ECCN_EU" "N/A"
-			(at 198.374 182.372 0)
+		(property "ORDER_CODE_FARNELL" "N/A"
+			(at 256.794 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17961,8 +14544,8 @@
 				(hide yes)
 			)
 		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 198.374 182.372 0)
+		(property "ORDER_CODE_RS" "N/A"
+			(at 256.794 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17972,15 +14555,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "8d5ca73d-a725-44cb-9803-7a678b0e63ab")
+			(uuid "4ab7aaae-bf88-499e-9bc2-6f59cff165eb")
 		)
 		(pin "1"
-			(uuid "14568f72-8818-494b-ac7c-2b075b8fa9d9")
+			(uuid "6009b6ee-6634-4aab-89f1-48ecd422bcc3")
 		)
 		(instances
-			(project ""
+			(project "radioboard_dev"
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "C21")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -18245,204 +14828,6 @@
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "#PWR0163")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_1_Capacitor")
-		(at 154.94 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6d82ea8-e3e3-44c0-8a58-2ffe5340b0b6")
-		(property "Reference" "C24"
-			(at 159.766 147.066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 155.194 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "parts:C0402"
-			(at 154.94 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor, MLCC, 33pF, 50V, NPO, +/-2%, 0402, T=0,5mm"
-			(at 154.94 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 155.194 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01784"
-			(at 155.194 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "33pF"
-			(at 159.766 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 155.194 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Capacitor"
-			(at 155.194 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CC0402GRNPO9BN330"
-			(at 160.02 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 155.194 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "C0402"
-			(at 155.194 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 155.194 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/Yageo_Capacitor_NP0_16V-to-50V"
-			(at 155.194 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "n/a"
-			(at 155.194 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "n/a"
-			(at 155.194 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 155.194 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e02f6712-7756-4ee8-9434-b03ad649f270")
-		)
-		(pin "2"
-			(uuid "41839b30-7d96-42ee-817e-8bf939b3a337")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -18732,16 +15117,16 @@
 		)
 	)
 	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_2_Capacitor")
-		(at 116.84 137.16 0)
+		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Inductor")
+		(at 243.84 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c2821ec1-eb67-498e-a39a-abaf76cbac6b")
-		(property "Reference" "C92"
-			(at 114.046 132.334 0)
+		(uuid "bee49771-9d1c-4db8-9e99-5ffeef30f231")
+		(property "Reference" "L3"
+			(at 241.3 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18749,27 +15134,17 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 111.252 132.334 0)
+		(property "Value" "16nH"
+			(at 246.126 135.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "parts:C0402"
-			(at 116.84 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 137.16 0)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 243.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18777,8 +15152,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor, High Q type for high frequency and high power, SMD, 1.2pF, 50V, 0,05pf, 0402"
-			(at 116.84 137.16 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/lqw15an16ng00d/2594857"
+			(at 243.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18786,449 +15161,25 @@
 				(hide yes)
 			)
 		)
-		(property "REVISION" ""
-			(at 111.252 132.334 0)
+		(property "Description" "LQW15AN16NG00D"
+			(at 243.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-02065"
-			(at 111.252 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "1.2pF"
-			(at 114.046 139.446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "BMS_PART_NUMBER" "N/A"
-			(at 111.252 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 111.252 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_PREFERENCE" "Recommended"
-			(at 111.252 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Capacitor"
-			(at 111.252 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "MURATA"
-			(at 111.252 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "GJM1555C1H1R2WB01D"
-			(at 114.046 141.986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTERNATE_MANUFACTURER" "N/A"
-			(at 111.252 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTERNATE_MANUFACTURER_PART_NUMBER" "N/A"
-			(at 111.252 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "C0402"
-			(at 111.252 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 111.252 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/MURATA_Chip_Monolithic_Ceramic_Capacitors"
-			(at 111.252 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_DIGIKEY" "490-11195-2-ND"
-			(at 111.252 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_FARNELL" "2781428"
-			(at 111.252 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_RS" "846-7246"
-			(at 111.252 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "9b27ab3a-d128-4247-ac81-328cea34aaa8")
+			(uuid "2fce5def-a526-43e3-aad6-0b17bae251e7")
 		)
 		(pin "2"
-			(uuid "3b81e281-681f-4ff3-a78a-84db0278b275")
+			(uuid "cd1d9984-dd18-4b29-9e23-807207db9e44")
 		)
 		(instances
-			(project ""
+			(project "radioboard_dev"
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "C92")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
-		(at 53.34 123.19 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c514a858-282b-4967-9714-c71fb4ce0692")
-		(property "Reference" "#PWR0158"
-			(at 53.34 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "049f71da-0e2b-4f64-8961-9e86cf9e0e8d")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "#PWR0158")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_1_Capacitor")
-		(at 236.22 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5308571-2d19-479b-ae4c-d95440349994")
-		(property "Reference" "C82"
-			(at 241.046 50.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 236.474 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "parts:C0402"
-			(at 236.22 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor, MLCC, 33pF, 50V, NPO, +/-2%, 0402, T=0,5mm"
-			(at 236.22 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 236.474 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01784"
-			(at 236.474 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "33pF"
-			(at 241.046 53.086 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 236.474 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Capacitor"
-			(at 236.474 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CC0402GRNPO9BN330"
-			(at 241.3 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 236.474 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "C0402"
-			(at 236.474 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 236.474 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/Yageo_Capacitor_NP0_16V-to-50V"
-			(at 236.474 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "n/a"
-			(at 236.474 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "n/a"
-			(at 236.474 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 236.474 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "42778cd8-4c77-4d2c-9064-c114d0258647")
-		)
-		(pin "1"
-			(uuid "af4ea6b9-98b6-453a-b497-e98c42968181")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "C82")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -19499,204 +15450,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_1_Capacitor")
-		(at 302.26 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c895d17e-fa50-4511-98d8-04755359286a")
-		(property "Reference" "C78"
-			(at 307.086 50.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 302.514 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "parts:C0402"
-			(at 302.26 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 302.26 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor, MLCC, 33pF, 50V, NPO, +/-2%, 0402, T=0,5mm"
-			(at 302.26 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 302.514 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01784"
-			(at 302.514 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "33pF"
-			(at 307.086 53.086 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 302.514 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Capacitor"
-			(at 302.514 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CC0402GRNPO9BN330"
-			(at 307.34 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 302.514 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "C0402"
-			(at 302.514 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 302.514 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/Yageo_Capacitor_NP0_16V-to-50V"
-			(at 302.514 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "n/a"
-			(at 302.514 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "n/a"
-			(at 302.514 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 302.514 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "52f20124-10d2-4c89-9d5b-a74845f6b724")
-		)
-		(pin "1"
-			(uuid "9a0642e2-835d-4fca-b320-e993727b4419")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "C78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Inductor")
 		(at 147.32 193.04 0)
 		(unit 1)
@@ -19714,17 +15467,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 142.24 195.58 0)
+		(property "Value" "0R"
+			(at 150.114 197.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "parts:IND_0402_MURATA_LQW15AN_H0P5"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 147.32 193.04 0)
 			(effects
 				(font
@@ -19733,7 +15485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/rc0402jr-070rl/726406"
 			(at 147.32 193.04 0)
 			(effects
 				(font
@@ -19742,140 +15494,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0402 inductor, 3.6nH +/-0.2nH, 900mA max, 0.04 ohm DC max, Q min = 30"
+		(property "Description" "RC0402JR-070RL SHUNT"
 			(at 147.32 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 144.272 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01762"
-			(at 144.272 191.262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "3.6nH"
-			(at 157.48 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 144.272 188.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Inductor"
-			(at 144.272 188.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "LQW15AN3N6C10"
-			(at 142.24 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "MURATA"
-			(at 144.272 188.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "L0402"
-			(at 144.272 188.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 144.272 188.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Inductors/Murata_inductor_LQW15ANseries"
-			(at 144.272 188.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "n/a"
-			(at 144.272 188.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "n/a"
-			(at 144.272 188.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 144.272 188.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -20028,72 +15652,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
-		(at 200.66 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d0c04eb5-38f9-4e52-a942-a16e49cf7a07")
-		(property "Reference" "#PWR0145"
-			(at 200.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 200.66 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "b1ae3baf-cc06-4c8a-8fa1-33a7567b94ab")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "#PWR0145")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MB1389-altium-import:VDDRF1V55_BAR")
 		(at 332.74 43.18 180)
 		(unit 1)
@@ -20176,17 +15734,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor"
+		(property "Value" "15 pF"
 			(at 221.234 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "parts:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 220.98 147.32 0)
 			(effects
 				(font
@@ -20195,7 +15752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/cc0402grnpo9bn150/5195058"
 			(at 220.98 147.32 0)
 			(effects
 				(font
@@ -20204,150 +15761,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor, MLCC, 5.6pF, 50V, NPO, +/- 0.1pF, 0402, T=0,5mm"
+		(property "Description" "CC0402GRNPO9BN150"
 			(at 220.98 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 221.234 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01374"
-			(at 221.234 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "5.6pF"
-			(at 225.806 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Released"
-			(at 221.234 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_PREFERENCE" "Recommended"
-			(at 221.234 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Capacitor"
-			(at 221.234 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 221.234 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CC0402BRNPO9BN5R6"
-			(at 218.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGE" "C0402"
-			(at 221.234 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 221.234 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/Yageo_Capacitor_NP0_16V-to-50V"
-			(at 221.234 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_DIGIKEY" "311-1625-1-ND"
-			(at 221.234 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_FARNELL" "N/A"
-			(at 221.234 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_RS" "N/A"
-			(at 221.234 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -20361,204 +15780,6 @@
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_1_Capacitor")
-		(at 330.2 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d5f72f8a-f5bc-4f62-927b-5f4a8a162498")
-		(property "Reference" "C80"
-			(at 335.026 50.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 330.454 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "parts:C0402"
-			(at 330.2 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor, MLCC, 33pF, 50V, NPO, +/-2%, 0402, T=0,5mm"
-			(at 330.2 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 330.454 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01784"
-			(at 330.454 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "33pF"
-			(at 335.026 53.086 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 330.454 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Capacitor"
-			(at 330.454 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CC0402GRNPO9BN330"
-			(at 335.28 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 330.454 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "C0402"
-			(at 330.454 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 330.454 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/Yageo_Capacitor_NP0_16V-to-50V"
-			(at 330.454 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "n/a"
-			(at 330.454 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "n/a"
-			(at 330.454 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 330.454 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c424c399-2dde-4a2c-a082-2a02fc6d68f6")
-		)
-		(pin "2"
-			(uuid "debf358d-1f91-4c0b-bde9-fd5e3f1fc328")
-		)
-		(instances
-			(project ""
-				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -20648,17 +15869,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 210.566 131.826 0)
+		(property "Value" "4.3 pF"
+			(at 210.058 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "parts:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 210.82 124.46 0)
 			(effects
 				(font
@@ -20667,7 +15887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/cc0402brnpo9bn4r3/5195032"
 			(at 210.82 124.46 0)
 			(effects
 				(font
@@ -20676,150 +15896,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor, MLCC, 2.2pF, 50V, NPO, +/-0.1pF, 0402, T=0,5mm"
+		(property "Description" "CC0402BRNPO9BN4R3"
 			(at 210.82 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 207.772 124.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01773"
-			(at 207.772 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "2.2pF"
-			(at 210.566 131.826 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "STATUS" "Released"
-			(at 207.772 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_PREFERENCE" "Recommended"
-			(at 207.772 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Capacitor"
-			(at 207.772 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 207.772 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CC0402BRNPO9BN2R2"
-			(at 203.2 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGE" "C0402"
-			(at 207.772 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 207.772 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/Yageo_Capacitor_NP0_16V-to-50V"
-			(at 207.772 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_DIGIKEY" "311-1618-1-ND"
-			(at 207.772 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_FARNELL" "N/A"
-			(at 207.772 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_RS" "N/A"
-			(at 207.772 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -20856,64 +15938,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 362.966 268.986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "parts:C0402"
-			(at 363.22 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 363.22 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor, MLCC, 33pF, 50V, NPO, +/-2%, 0402, T=0,5mm"
-			(at 363.22 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REVISION" ""
-			(at 360.172 261.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-01784"
-			(at 360.172 259.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "33pF"
+		(property "Value" "68pF"
 			(at 362.966 268.986 0)
 			(effects
 				(font
@@ -20922,102 +15947,30 @@
 				(justify left bottom)
 			)
 		)
-		(property "STATUS" "Checked"
-			(at 360.172 256.794 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 363.22 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "PART_TYPE" "Capacitor"
-			(at 360.172 256.794 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/CC0402JRNPO9BN680/2103078?s=N4IgTCBcDaIMJwAwBZFgFICUByAFA8gJwBC2AbAByIgC6AvkA"
+			(at 363.22 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CC0402GRNPO9BN330"
-			(at 355.6 271.78 0)
+		(property "Description" "CC0402JRNPO9BN680"
+			(at 363.22 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 360.172 256.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "C0402"
-			(at 360.172 256.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 360.172 256.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/Yageo_Capacitor_NP0_16V-to-50V"
-			(at 360.172 256.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_US" "n/a"
-			(at 360.172 256.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ECCN_EU" "n/a"
-			(at 360.172 256.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PROVIDED_BY" "SUBCO"
-			(at 360.172 256.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -21295,6 +16248,144 @@
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "#PWR0166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_1_Capacitor")
+		(at 220.98 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5240e3a-6fc2-45f9-865b-ed7f846b0d05")
+		(property "Reference" "C14"
+			(at 225.806 187.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "15 pF"
+			(at 217.424 189.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 220.98 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/cc0402grnpo9bn150/5195058"
+			(at 220.98 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CC0402GRNPO9BN150"
+			(at 220.98 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ed781a3-72f2-448e-910a-80f97ef343b4")
+		)
+		(pin "1"
+			(uuid "73490392-a16d-4d0b-a1b1-4143115aa3b5")
+		)
+		(instances
+			(project "radioboard_dev"
+				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Capacitor")
+		(at 335.28 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e56da594-24ae-467a-9b6f-1cb2ffeae05c")
+		(property "Reference" "C80"
+			(at 335.026 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "68pF"
+			(at 327.914 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 335.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/CC0402JRNPO9BN680/2103078?s=N4IgTCBcDaIMJwAwBZFgFICUByAFA8gJwBC2AbAByIgC6AvkA"
+			(at 335.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CC0402JRNPO9BN680"
+			(at 335.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9d03e19-c2dc-4757-b620-1942f923194e")
+		)
+		(pin "1"
+			(uuid "55bb93e4-e0af-4b4f-9abd-318e0b1c35d9")
+		)
+		(instances
+			(project "radioboard_dev"
+				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -21973,16 +17064,16 @@
 		)
 	)
 	(symbol
-		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_1_Capacitor")
-		(at 210.82 50.8 0)
+		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Capacitor")
+		(at 160.02 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f5376a84-c7ce-4f48-a770-d2e2518c66f8")
-		(property "Reference" "C97"
-			(at 215.646 50.546 0)
+		(uuid "ef3ca831-7fb8-45da-869f-f1972ba8c2af")
+		(property "Reference" "C25"
+			(at 159.766 175.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21990,27 +17081,17 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 211.074 45.212 0)
+		(property "Value" "68pF"
+			(at 152.654 175.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "parts:C0402"
-			(at 210.82 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 50.8 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 160.02 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22018,8 +17099,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor, High Q type for high frequency and high power, SMD, 1.2pF, 50V, 0,05pf, 0402"
-			(at 210.82 50.8 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/CC0402JRNPO9BN680/2103078?s=N4IgTCBcDaIMJwAwBZFgFICUByAFA8gJwBC2AbAByIgC6AvkA"
+			(at 160.02 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22027,184 +17108,94 @@
 				(hide yes)
 			)
 		)
-		(property "REVISION" ""
-			(at 211.074 45.212 0)
+		(property "Description" "CC0402JRNPO9BN680"
+			(at 160.02 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" "MCD-02065"
-			(at 211.074 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "1.2pF"
-			(at 215.646 53.086 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "BMS_PART_NUMBER" "N/A"
-			(at 211.074 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "STATUS" "Checked"
-			(at 211.074 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_PREFERENCE" "Recommended"
-			(at 211.074 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "Capacitor"
-			(at 211.074 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "MURATA"
-			(at 211.074 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "GJM1555C1H1R2WB01D"
-			(at 203.2 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTERNATE_MANUFACTURER" "N/A"
-			(at 211.074 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTERNATE_MANUFACTURER_PART_NUMBER" "N/A"
-			(at 211.074 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "C0402"
-			(at 211.074 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 211.074 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/Capacitors/MURATA_Chip_Monolithic_Ceramic_Capacitors"
-			(at 211.074 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_DIGIKEY" "490-11195-2-ND"
-			(at 211.074 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_FARNELL" "2781428"
-			(at 211.074 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_RS" "846-7246"
-			(at 211.074 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "57f8d294-6c73-411f-a5ca-31c3b51e517f")
+			(uuid "98b7277f-8d4a-4353-8824-f4fcf9e5b529")
 		)
 		(pin "1"
-			(uuid "69c38e13-3381-4149-9583-97047faf6e0d")
+			(uuid "30388218-c030-4946-8de1-6ce8578b6eb4")
 		)
 		(instances
-			(project ""
+			(project "radioboard_dev"
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
-					(reference "C97")
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Capacitor")
+		(at 302.26 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f27bcd0d-3b1a-4d15-9008-27d569ed60ee")
+		(property "Reference" "C78"
+			(at 302.514 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "68pF"
+			(at 309.626 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 302.26 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/CC0402JRNPO9BN680/2103078?s=N4IgTCBcDaIMJwAwBZFgFICUByAFA8gJwBC2AbAByIgC6AvkA"
+			(at 302.26 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CC0402JRNPO9BN680"
+			(at 302.26 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4180a7e-f6de-4577-a471-bb49ba1b1943")
+		)
+		(pin "1"
+			(uuid "88fc3040-3b2f-4545-9993-0e4336e8db09")
+		)
+		(instances
+			(project "radioboard_dev"
+				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -22604,6 +17595,75 @@
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
 					(reference "C73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MB1389-altium-import:U_STM32_microcontroller_RF_0_Capacitor")
+		(at 236.22 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fee55a63-eb2c-4192-97e1-52e050a2ddfe")
+		(property "Reference" "C82"
+			(at 236.474 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "68pF"
+			(at 243.586 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 236.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/CC0402JRNPO9BN680/2103078?s=N4IgTCBcDaIMJwAwBZFgFICUByAFA8gJwBC2AbAByIgC6AvkA"
+			(at 236.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CC0402JRNPO9BN680"
+			(at 236.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63ccf706-ebde-495a-8b0e-23a51d891b43")
+		)
+		(pin "1"
+			(uuid "bf4f47aa-6fe7-4827-95c3-00adcd2c5f14")
+		)
+		(instances
+			(project "radioboard_dev"
+				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/955d1056-b41d-4116-b452-aa2752fbe45d"
+					(reference "C82")
 					(unit 1)
 				)
 			)

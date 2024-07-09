@@ -868,11 +868,239 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTERNATE_MANUFACTURER",
+          "name": "ALTERNATE_MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTERNATE_MANUFACTURER_PART_NUMBER",
+          "name": "ALTERNATE_MANUFACTURER_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTIUM_VALUE",
+          "name": "ALTIUM_VALUE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "BMS_PART_NUMBER",
+          "name": "BMS_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK1DESCRIPTION",
+          "name": "COMPONENTLINK1DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK1URL",
+          "name": "COMPONENTLINK1URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ECCN_EU",
+          "name": "ECCN_EU",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ECCN_US",
+          "name": "ECCN_US",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "INTERNAL_PART_NUMBER",
+          "name": "INTERNAL_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER_PART_NUMBER",
+          "name": "MANUFACTURER_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OC_FARNELL",
+          "name": "OC_FARNELL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OC_NEWARK",
+          "name": "OC_NEWARK",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ORDER_CODE_DIGIKEY",
+          "name": "ORDER_CODE_DIGIKEY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ORDER_CODE_FARNELL",
+          "name": "ORDER_CODE_FARNELL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ORDER_CODE_RS",
+          "name": "ORDER_CODE_RS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART_PREFERENCE",
+          "name": "PART_PREFERENCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART_TYPE",
+          "name": "PART_TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PROVIDED_BY",
+          "name": "PROVIDED_BY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "REVISION",
+          "name": "REVISION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STATUS",
+          "name": "STATUS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER",
+          "name": "SUPPLIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

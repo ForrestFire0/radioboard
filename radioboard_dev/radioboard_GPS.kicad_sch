@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "64eadca7-e16e-4533-8db1-67c90ef171a7")
+	(uuid "93dbc385-3dfd-48c9-a6cc-6c2e567d0431")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
@@ -1198,11 +1198,11 @@
 		(uuid "4d3e8aa6-5005-45c0-af81-220000625a5d")
 	)
 	(no_connect
-		(at 54.61 38.1)
+		(at 58.42 114.3)
 		(uuid "6c98dc12-6870-4f80-98f3-6cf9f721b4d7")
 	)
 	(no_connect
-		(at 54.61 33.02)
+		(at 58.42 109.22)
 		(uuid "78b1715f-8a01-44df-9693-8b7ebaf6a3c7")
 	)
 	(wire
@@ -1236,8 +1236,8 @@
 		(uuid "de4cecd5-8a05-469d-9958-1cf55466deee")
 	)
 	(rectangle
-		(start 8.89 12.065)
-		(end 68.58 53.975)
+		(start 14.605 66.04)
+		(end 70.485 132.08)
 		(stroke
 			(width 0)
 			(type default)
@@ -1258,6 +1258,26 @@
 			(type none)
 		)
 		(uuid ed4af20b-abb5-4e71-b82a-b474a2b20021)
+	)
+	(text "GPS Module"
+		(exclude_from_sim no)
+		(at 150.876 55.88 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "25dace95-5d4b-4aae-a853-a466d5535808")
+	)
+	(text "GPS Switch\n"
+		(exclude_from_sim no)
+		(at 39.878 82.296 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "fdaaac0a-28a4-46d0-ab56-0ac4f5568aca")
 	)
 	(global_label "GPSTXD"
 		(shape input)
@@ -1371,7 +1391,7 @@
 	)
 	(global_label "VGPS"
 		(shape input)
-		(at 54.61 27.94 0)
+		(at 58.42 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1381,7 +1401,7 @@
 		)
 		(uuid "825719ca-09d3-4f00-9f01-7f9a8842624a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.4333 27.94 0)
+			(at 66.2433 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1415,7 +1435,7 @@
 	)
 	(global_label "GPSPOW"
 		(shape input)
-		(at 24.13 33.02 180)
+		(at 27.94 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1425,7 +1445,7 @@
 		)
 		(uuid "ac1fe441-83f8-4da1-a0d5-47d5aa678348")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.3434 33.02 0)
+			(at 17.1534 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1569,7 +1589,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 24.13 27.94 0)
+		(at 27.94 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1578,7 +1598,7 @@
 		(fields_autoplaced yes)
 		(uuid "2604a0e4-f690-4a10-b627-84dccb85bb17")
 		(property "Reference" "#PWR04"
-			(at 24.13 31.75 0)
+			(at 27.94 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1587,7 +1607,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 24.13 22.86 0)
+			(at 27.94 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1595,7 +1615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 27.94 0)
+			(at 27.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1604,7 +1624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 27.94 0)
+			(at 27.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1613,7 +1633,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 24.13 27.94 0)
+			(at 27.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +2043,7 @@
 	)
 	(symbol
 		(lib_id "MB1389-altium-import:GND_POWER_GROUND")
-		(at 54.61 43.18 0)
+		(at 58.42 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2031,7 +2051,7 @@
 		(dnp no)
 		(uuid "bd817ce3-7dcc-4010-83b0-7a31a2a2752a")
 		(property "Reference" "#PWR028"
-			(at 54.61 43.18 0)
+			(at 58.42 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +2060,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 49.53 0)
+			(at 58.42 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,7 +2069,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 43.18 0)
+			(at 58.42 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,7 +2078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 43.18 0)
+			(at 58.42 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2087,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 43.18 0)
+			(at 58.42 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,7 +2317,7 @@
 	)
 	(symbol
 		(lib_id "TPS22917DBVR:TPS22917DBVR")
-		(at 39.37 35.56 0)
+		(at 43.18 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2306,7 +2326,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4676913-d710-4f98-a659-23cb3e48c8e8")
 		(property "Reference" "U1"
-			(at 39.37 20.32 0)
+			(at 43.18 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2314,7 +2334,7 @@
 			)
 		)
 		(property "Value" "TPS22917DBVR"
-			(at 39.37 22.86 0)
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,7 +2342,7 @@
 			)
 		)
 		(property "Footprint" "parts:SOT95P280X145-6N"
-			(at 39.37 35.56 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2332,7 +2352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 35.56 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,7 +2361,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 35.56 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +2370,7 @@
 			)
 		)
 		(property "PARTREV" "B"
-			(at 39.37 35.56 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2360,7 +2380,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 39.37 35.56 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,7 +2390,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.45mm"
-			(at 39.37 35.56 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2380,7 +2400,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Texas Instruments"
-			(at 39.37 35.56 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)

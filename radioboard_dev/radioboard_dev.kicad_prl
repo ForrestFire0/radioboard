@@ -1,12 +1,11 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 37,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
       "GND",
-      "VBAT",
       "+3.3V",
       "SDA",
       "SCL",
@@ -16,11 +15,8 @@
       "SWCLK",
       "SWDIO",
       "VGPS",
-      "/microcontroller_IOs/OSC32_IN",
       "GPSPOW",
-      "/microcontroller_IOs/OSC32_OUT",
       "NRST",
-      "BOOT0",
       "SPI1_NSS",
       "CURROUT",
       "SPI1_MISO",
@@ -46,7 +42,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -91,7 +87,7 @@
       39,
       40
     ],
-    "visible_layers": "ffdfbff_ffffffff",
+    "visible_layers": "ffc1fff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {

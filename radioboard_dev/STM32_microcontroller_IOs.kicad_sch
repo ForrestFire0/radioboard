@@ -9958,7 +9958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a904e533-c7fd-42d7-b542-aa2ae2ad6fc6")
-		(property "Reference" "LED3"
+		(property "Reference" "LED2"
 			(at 70.866 179.07 0)
 			(effects
 				(font
@@ -10182,7 +10182,7 @@
 		(instances
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/991445d1-ac72-4dc7-8e85-5e852498bc5d"
-					(reference "LED3")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -10601,7 +10601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e008bdd5-d9ef-4805-859a-3ff87a1ee43e")
-		(property "Reference" "LED2"
+		(property "Reference" "LED1"
 			(at 70.866 168.91 0)
 			(effects
 				(font
@@ -10815,7 +10815,7 @@
 		(instances
 			(project ""
 				(path "/d463a497-8f2e-444e-8cd9-7512b15bd4f7/991445d1-ac72-4dc7-8e85-5e852498bc5d"
-					(reference "LED2")
+					(reference "LED1")
 					(unit 1)
 				)
 			)

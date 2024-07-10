@@ -1,4 +1,4 @@
-23719479519315990
+23721200340544577
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96767,6 +96767,13 @@ MOS_SOT23-5L
 0
 5
 5
+parts
+MountingHole
+
+
+0
+0
+0
 parts
 NX2016SA_NDK
 

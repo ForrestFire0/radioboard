@@ -1,32 +1,12 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
       "GND",
-      "+3.3V",
-      "SDA",
-      "SCL",
-      "LPUART1_TX",
-      "LPUART1_RX",
-      "SPI1_SCK",
-      "SWCLK",
-      "SWDIO",
-      "VGPS",
-      "GPSPOW",
-      "NRST",
-      "SPI1_NSS",
-      "CURROUT",
-      "SPI1_MISO",
-      "SPI1_MOSI",
-      "VCURR",
-      "BUT1",
-      "LED2",
-      "LED1",
-      "GPSTXD",
-      "GPSRXD"
+      "+3.3V"
     ],
     "high_contrast_mode": 1,
     "net_color_mode": 1,
@@ -87,7 +67,7 @@
       39,
       40
     ],
-    "visible_layers": "ffc1fff_ffffffff",
+    "visible_layers": "ffc1bff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {

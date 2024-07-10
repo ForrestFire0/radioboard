@@ -4129,28 +4129,28 @@
 		(uuid "eb9ebe14-78fe-44e4-aaaf-2e032487c296")
 	)
 	(no_connect
-		(at 163.83 39.37)
-		(uuid "16639e10-7b82-4b0f-84c0-25cc0dcab1bc")
+		(at 163.83 62.23)
+		(uuid "00604319-32a8-40ea-a665-eb69303f0317")
 	)
 	(no_connect
-		(at 163.83 52.07)
-		(uuid "8b01aba0-27e6-4610-90e2-389eb197d91e")
+		(at 163.83 59.69)
+		(uuid "098f6078-b2e5-48ac-8161-c53496d136f3")
+	)
+	(no_connect
+		(at 163.83 57.15)
+		(uuid "9bc5eb0c-cf71-4390-9961-48c6e75ce9d8")
 	)
 	(no_connect
 		(at 163.83 100.33)
 		(uuid "a18e12fe-075e-4fac-b5f5-621ebb6aa7eb")
 	)
 	(no_connect
-		(at 163.83 36.83)
-		(uuid "ae251b1f-d425-41e9-9e0b-7b1bdb9a4253")
+		(at 163.83 54.61)
+		(uuid "cdffd47e-19c5-49cd-a1f7-93190906e8bd")
 	)
 	(no_connect
 		(at 120.65 80.01)
 		(uuid "e84bc5ea-e7bb-4fda-ad8c-2d202764b175")
-	)
-	(no_connect
-		(at 163.83 74.93)
-		(uuid "f25eca04-8ec4-489a-923c-486e57de2e9c")
 	)
 	(wire
 		(pts
@@ -6189,28 +6189,6 @@
 		)
 		(uuid "ae34edb2-d857-49aa-985f-8c787801d8f7")
 	)
-	(global_label "SDA"
-		(shape input)
-		(at 163.83 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "00a52c01-16bf-47b1-afa7-11d17fca72af")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.3833 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LED1"
 		(shape input)
 		(at 43.18 171.45 180)
@@ -6321,6 +6299,28 @@
 			)
 		)
 	)
+	(global_label "GPSPOW"
+		(shape input)
+		(at 163.83 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b0dea6d-6958-446b-9532-d80f92c4e2a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.6166 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RFO_LP"
 		(shape input)
 		(at 120.65 69.85 180)
@@ -6356,6 +6356,28 @@
 		(uuid "26c7aab3-fa6a-4a78-8682-efe2ef98c18d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.13 19.9958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 163.83 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a1e704e-457b-435b-8e48-ab462ca2bc24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.3228 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6717,28 +6739,6 @@
 			)
 		)
 	)
-	(global_label "GPSPOW"
-		(shape input)
-		(at 163.83 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a724d616-c42e-48dd-837c-68c970a13b67")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.6166 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "OSC_OUT"
 		(shape input)
 		(at 120.65 52.07 180)
@@ -6774,28 +6774,6 @@
 		(uuid "c0d16305-6895-42c5-85d3-2c8355b2807c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 180.9061 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BUT1"
-		(shape input)
-		(at 163.83 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c100ce64-3584-4150-91fb-f7fb1497ecb9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.5928 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,6 +6893,50 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape input)
+		(at 163.83 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5c73523-e528-436e-abf3-0133447e0e4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.3833 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUT1"
+		(shape input)
+		(at 163.83 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d880dda0-d978-4651-bf0c-d6b515dabaa3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.5928 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VLXSMPS"
 		(shape input)
 		(at 120.65 41.91 180)
@@ -6933,28 +6955,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 163.83 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eaa0d274-cfcd-4ab1-8b80-b6a83f052c46")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.3228 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7003,19 +7003,7 @@
 			)
 		)
 	)
-	(hierarchical_label "FE_CTRL2"
-		(shape passive)
-		(at 163.83 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "090251fb-8c1f-464b-9798-dedeb23264b2")
-	)
-	(hierarchical_label "FE_CTRL3"
+	(hierarchical_label "FE_CTRL1"
 		(shape passive)
 		(at 163.83 97.79 0)
 		(fields_autoplaced yes)
@@ -7025,11 +7013,11 @@
 			)
 			(justify left)
 		)
-		(uuid "181fd64c-f871-4d0d-bdc5-6e03b85f6cca")
+		(uuid "0be98b3e-d541-4460-ba56-3e4f12256462")
 	)
-	(hierarchical_label "FE_CTRL1"
+	(hierarchical_label "FE_CTRL3"
 		(shape passive)
-		(at 163.83 92.71 0)
+		(at 163.83 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7037,7 +7025,19 @@
 			)
 			(justify left)
 		)
-		(uuid "7b18b327-6e83-4667-90ac-57c945b22d6e")
+		(uuid "b8ed7656-ca8d-4855-a764-670460ac6372")
+	)
+	(hierarchical_label "FE_CTRL2"
+		(shape passive)
+		(at 163.83 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd63aee0-0169-4b29-8330-05e041b5fcbf")
 	)
 	(symbol
 		(lib_id "MB1389-altium-import:U_STM32_microcontroller_power_1_Capacitor")

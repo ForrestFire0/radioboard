@@ -10937,7 +10937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "parts:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 256.54 187.96 0)
 			(effects
 				(font

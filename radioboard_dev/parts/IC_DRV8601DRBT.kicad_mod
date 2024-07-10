@@ -485,4 +485,15 @@
 		)
 		(uuid "fbf56657-3f4f-4688-ade1-e70b163a61d2")
 	)
+	(model "${KIPRJMOD}/parts/TPS73733QDRBRQ1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

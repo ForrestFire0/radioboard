@@ -1,12 +1,10 @@
 {
   "board": {
-    "active_layer": 36,
+    "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "+3.3V"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
@@ -21,7 +19,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -66,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "ffc1bff_ffffffff",
+    "visible_layers": "ffc9bff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {

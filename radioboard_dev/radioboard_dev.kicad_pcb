@@ -23639,7 +23639,7 @@
 			)
 		)
 		(property "Footprint" "parts:R0402"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5bb49abb-ee8e-4cb0-b976-6030de9718c1")
@@ -23651,7 +23651,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/rc0402fr-07220rl/726565"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "21ac2584-1942-44ef-9152-6c31e82a0b76")
@@ -23663,7 +23663,7 @@
 			)
 		)
 		(property "Description" "Resistor,220R,0402,1%,1/16W"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "139b15d1-dae7-494e-ae91-f57d1cb185bc")
@@ -48831,7 +48831,7 @@
 			)
 		)
 		(property "Footprint" "parts:R0402"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0cf69d7c-af3c-4b03-a05a-cbf47ec0cf44")
@@ -48843,7 +48843,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/rc0402fr-07220rl/726565"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7daa368-5df3-401b-9ff9-7c44ffb31b32")
@@ -48855,7 +48855,7 @@
 			)
 		)
 		(property "Description" "Resistor,220R,0402,1%,1/16W"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "493f0301-e9b2-433e-a609-b316cd5ff260")
@@ -52454,7 +52454,7 @@
 			)
 		)
 		(property "Footprint" "parts:R0402"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "23eef13b-4121-4390-8af8-4e760537f71f")
@@ -52466,7 +52466,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/rc0402fr-07220rl/726565"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "80f42626-28bf-4abf-853a-59bc6c64468c")
@@ -52478,7 +52478,7 @@
 			)
 		)
 		(property "Description" "Resistor,220R,0402,1%,1/16W"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4f1457c3-1bcc-4b4d-b1d3-4b897ca93436")
